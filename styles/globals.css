@@ -1,0 +1,159 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.section-container {
+    @apply max-w-6xl mx-auto text-center px-10;
+}
+
+.section-content {
+    @apply max-w-3xl mx-auto leading-9 text-center text-white;
+}
+
+.button-container {
+    @apply flex flex-col justify-center w-full space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4;
+}
+
+/* HAMBURGER MENU */
+
+.hamburger {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    transition: all 0.25s;
+    position: relative;
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 3px;
+    top: 0;
+    left: 0;
+    background: #fff;
+    transform: rotate(0);
+    transition: all 0.5s;
+}
+
+.hamburger-middle {
+    transform: translateY(7px);
+}
+
+.hamburger-bottom {
+    transform: translateY(14px);
+}
+
+.open {
+    transform: rotate(90deg);
+    transform: translateY(0px);
+    position: fixed;
+    top: 25px;
+    right: 25px;
+}
+
+.open .hamburger-top {
+    transform: rotate(45deg) translateY(6px) translateX(6px);
+    background-color: #fff;
+}
+
+.open .hamburger-middle {
+    display: none;
+}
+
+.open .hamburger-bottom {
+    transform: rotate(-45deg) translateY(6px) translateX(-6px);
+    background-color: #fff;
+}
+
+/* Utility classes */
+.hidden_item {
+    opacity: 0;
+    transform: translateX(-100%);
+    filter: blur(5px);
+}
+
+/*.hidden_item_right {*/
+/*    opacity: 0;*/
+/*    transform: translateX(100%);*/
+/*    filter: blur(5px);*/
+/*}*/
+
+@media (prefers-reduced-motion) {
+    .hidden_item {
+        transition: none;
+    }
+}
+
+/* End Utility classes */
+
+/* Map classes */
+#svg-main {
+    border: solid 1px gray;
+    background-color: #cdcccd;
+    /*background-color: #c4c2c2;*/
+}
+
+.font-change {
+    font-family: Lato, serif;
+}
+
+.country {
+    fill: #e8e8e8;
+    /*stroke: white;*/
+    /*stroke-width: .5;*/
+}
+
+.graticule {
+    fill: none;
+    stroke: green;
+    stroke-width: .25
+}
+
+.city circle {
+    fill: #5a9294;
+    /*stroke: black;*/
+    stroke-width: 0.3;
+    opacity: 0.7;
+    transition: ease-in 0.5s 0s;
+}
+
+#tooltip {
+    pointer-events: none;
+}
+
+#tooltip rect {
+    fill: white;
+    fill-opacity: .9;
+    stroke: black;
+    stroke-width: .5;
+}
+
+#tooltip text {
+    font-size: 12px;
+    text-anchor: middle;
+    font-family: Lato, sans-serif;
+    font-weight: lighter;
+}
+
+#chart {
+    /*margin: 50px 5rem 0 5rem;*/
+}
+
+#zoom_in, #zoom_out {
+    color: gray;
+}
+
+#zoom_in:hover, #zoom_out:hover {
+    color: black;
+}
+
+@media only screen and (max-width: 1400px) {
+    #chart {
+        margin: 20px 4px
+    }
+}
+
+/* End Map classes */
