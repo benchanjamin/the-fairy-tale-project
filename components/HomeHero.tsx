@@ -20,11 +20,29 @@ function HomeHero(props) {
             <div className="container mx-auto relative">
                 {/* Content Words */}
                 <div
-                    className="flex justify-center pt-[3rem] h-[25vh] items-top mx-auto w-[70%] md:w-[55%] md:h-[35vh] 3xl:w-[80%] md:pt-[7rem]">
-                    <h1 className="text-white text-center font-medium text-[13px] md:text-[22px] 3xl:text-[50px] font-['Lato']
+                    className="flex justify-center pt-[3rem] h-[100vh] items-top mx-auto w-[70%] md:w-[55%] md:h-[110vh] 3xl:w-[80%] md:pt-[7rem]">
+                    <h1 className="text-lightBlack text-center font-medium text-[13px] md:text-[22px] 3xl:text-[50px] font-['Lato']
                      tracking-[.04rem]">
-                        Fairy Web is a digital humanities project that includes information and
-                        data visualizations about the 19th century British fairy tale.
+                        <p>
+                            Fairy tales and oral folk tales have been a mainstay of the children’s literature genre for many centuries. Specifically, across Western European traditions, the fairy tale genre became popular through the works of authors such as Madame d’Aulnoy and the Brothers Grimm. As cultures shift, the fairy tale is often adapted, including into other mediums.
+                        </p>
+                        <br/>
+                        <p>
+                            The Contemporary Fairy Tale Project aims to explore the contemporary fairy tale in a post-pandemic, 21st century moment. Through extensive research on fairy tales and folk tales in different historical and cultural contexts, undergraduate students Lara Katz, Charlotte Leane, Allison Peart, and Sierra Stern engaged critically with the fairy tale genre under the guidance of Kate Clairmont, Ph.D. Candidate in the Department of English. After researching, each student developed a creative writing project as a direct response both to the works they read and to collaborative group discussions.
+                        </p>
+                        <br/>
+                        <p>
+                            Using this creative mode enabled this group of students to think through the fairy tale differently, ultimately resulting in a re-conceptualization of a literary genre with several original works that each uniquely interpret the contemporary fairy tale. The goal of The Contemporary Fairy Tale Project is to provide holistically diverse stories reflective of and particularly suited to our times.
+                        </p>
+                        <br/>
+                        <p>
+                            This project was generously funded by a 2022 Humanities Council Flash Grant and supported by the David A. Gardner ’69 Magic Grant.
+                        </p>
+                        <br/>
+                        <p>
+                            Special thanks to Kathleen Crown and Ruby Marie Marsh at the Humanities Council and to Sarah Thody in the Department of English. All website design was implemented by Ben Chan, Major in Computer Science.
+
+                        </p>
                     </h1>
                 </div>
             </div>

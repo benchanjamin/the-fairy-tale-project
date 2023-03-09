@@ -16,11 +16,12 @@ class MyDocument extends Document {
                     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"/>
                     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
                           rel="stylesheet"/>
+                    <link href="https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"/>
                     <Script src="https://d3js.org/d3.v5.min.js" strategy="beforeInteractive"/>
                     <Script src="https://unpkg.com/topojson-client" strategy="beforeInteractive"/>
                     <Script src="/static/menu.js" strategy="lazyOnload"/>
                 </Head>
-                <body className="bg-lightBlack">
+                <body className="bg-[#a1b4bd]">
                 <Main/>
                 <NextScript/>
                 </body>
