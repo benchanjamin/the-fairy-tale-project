@@ -31,15 +31,15 @@ export default function BetterHeader() {
                     md:mt-[15px] pl-6 pr-6">
                         <NavLink href="/" exact
                                  className="text-lightBlack italic font-medium hover:text-lightBlue duration-75 ">Home</NavLink>
-                        <NavLink href="/timeline" exact
+                        <NavLink href="/blue-trees" exact
                                  className="text-lightBlack italic font-medium hover:text-lightBlue duration-75">Blue Trees</NavLink>
-                        <NavLink href="/map" exact
+                        <NavLink href="/the-witchfinders" exact
                                  className="text-lightBlack italic font-medium hover:text-lightBlue duration-75">The Witchfinders</NavLink>
 
-                        <NavLink href="/about" exact
+                        <NavLink href="/dragon-days" exact
                                  className="text-lightBlack italic font-medium hover:text-lightBlue duration-75">Dragon Days</NavLink>
 
-                        <NavLink href="/about" exact
+                        <NavLink href="/the-fire-drill" exact
                                  className="text-lightBlack italic font-medium hover:text-lightBlue duration-75">The Fire Drill</NavLink>
 
                     </div>
