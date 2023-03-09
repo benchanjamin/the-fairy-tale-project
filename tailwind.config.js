@@ -15,7 +15,7 @@ module.exports = {
                 darkBlue: '#20c5cb'
             },
             fontFamily: {
-                sans: ['cormorant-garamond', 'sans-serif'],
+                sans: ['Playfair Display', 'sans-serif'],
                 serif: ['Lato', 'sans-serif'],
             },
         },

@@ -9,7 +9,7 @@ export default function BetterHeader() {
                 <div className="flex-col items-start">
                     {/* Logo + Button */}
                     <div className="flex justify-between">
-                        <h2 className="text-[14px] text-lightBlack text-left font-bold font-light pl-6 pr-6 font-['Lato']">The Contemporary Fairy Tale Project</h2>
+                        <h2 className="text-[14px] text-lightBlack text-left font-bold font-light pl-6 pr-6 font-sans">The Contemporary Fairy Tale Project</h2>
 
                         <button
                             id="menu-btn"
@@ -27,8 +27,8 @@ export default function BetterHeader() {
                     {/*The Witchfinders*/}
                     {/*Dragon Days*/}
                     {/*The Fire Drill*/}
-                    <div className="hidden items-center justify-between space-x-30 md:flex md:text-[24px] text-[28px] xl:text-[32px]
-                    md:mt-[15px] pl-6 pr-6 font-['Almendra']">
+                    <div className="hidden items-center justify-between space-x-30 md:flex md:text-[20px] lg:text-[28px]
+                    md:mt-[15px] pl-6 pr-6">
                         <NavLink href="/" exact
                                  className="text-lightBlack italic font-medium hover:text-lightBlue duration-75 ">Home</NavLink>
                         <NavLink href="/timeline" exact

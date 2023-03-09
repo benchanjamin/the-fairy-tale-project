@@ -20,8 +20,8 @@ function HomeHero(props) {
             <div className="container mx-auto relative">
                 {/* Content Words */}
                 <div
-                    className="flex justify-center pt-[3rem] h-[100vh] items-top mx-auto w-[70%] md:w-[55%] md:h-[110vh] 3xl:w-[80%] md:pt-[7rem]">
-                    <h1 className="text-lightBlack text-center font-medium text-[13px] md:text-[22px] 3xl:text-[50px] font-['Lato']
+                    className="flex justify-center pt-[3rem] pb-[3rem] items-top mx-auto w-[80%] 3xl:w-[80%] md:pt-[7rem]">
+                    <h1 className="text-lightBlack text-center text-[13px] md:text-[22px] 3xl:text-[50px] font-sans
                      tracking-[.04rem]">
                         <p>
                             Fairy tales and oral folk tales have been a mainstay of the children’s literature genre for many centuries. Specifically, across Western European traditions, the fairy tale genre became popular through the works of authors such as Madame d’Aulnoy and the Brothers Grimm. As cultures shift, the fairy tale is often adapted, including into other mediums.
