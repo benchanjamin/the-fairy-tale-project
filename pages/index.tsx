@@ -6,7 +6,7 @@ export default function index() {
     return (
         <>
            <Head>
-               <title>FairyWeb Home</title>
+               <title>Fairy Tale Project Home</title>
            </Head>
             <HomeHero/>
         </>
