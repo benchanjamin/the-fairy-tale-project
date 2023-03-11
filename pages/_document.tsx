@@ -21,7 +21,7 @@ class MyDocument extends Document {
                     <Script src="https://unpkg.com/topojson-client" strategy="beforeInteractive"/>
                     <Script src="/static/menu.js" strategy="lazyOnload"/>
                 </Head>
-                <body className="bg-[#a1b4bd]">
+                <body className="bg-[#a2b4be]">
                 <Main/>
                 <NextScript/>
                 </body>

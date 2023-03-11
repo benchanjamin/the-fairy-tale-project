@@ -8,10 +8,10 @@ function MyApp({Component, pageProps}) {
             <Component {...pageProps} />
             <div className="mx-auto pt-4 pb-4" id="footer">
                 <div className="text-sm text-lightBlack text-center md:text-md font-['Playfair Display']">
-                    This project is sponsored by the Center for Digital Humanities at Princeton University
+                    This project was sponsored by a Flash Grant from the Princeton University Humanities Council
                 </div>
                 <div className="text-sm text-lightBlack text-center mt-2 md:text-md">
-                    Copyright © 2022
+                    Copyright © 2023
                 </div>
             </div>
         </>

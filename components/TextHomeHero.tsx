@@ -7,8 +7,8 @@ function TextHomeHero(props) {
             <div
                 className="flex justify-center pt-[3rem] pb-[3rem] items-top mx-auto w-[80%] 3xl:w-[80%] md:pt-[7rem]">
                 <h1 className="text-lightBlack text-center text-[13px] md:text-[22px] 3xl:text-[50px] font-sans
-                     tracking-[.04rem]">
-                    <p>
+                     tracking-[.04rem] ">
+                    <p className="text-left">
                         Fairy tales and oral folk tales have been a mainstay of the children’s literature genre
                         for many centuries. Specifically, across Western European traditions, the fairy tale
                         genre became popular through the works of authors such as Madame d’Aulnoy and the
@@ -16,7 +16,7 @@ function TextHomeHero(props) {
                         mediums.
                     </p>
                     <br/>
-                    <p>
+                    <p className="text-left">
                         The Contemporary Fairy Tale Project aims to explore the contemporary fairy tale in a
                         post-pandemic, 21st century moment. Through extensive research on fairy tales and folk
                         tales in different historical and cultural contexts, undergraduate students Lara Katz,
@@ -26,7 +26,7 @@ function TextHomeHero(props) {
                         direct response both to the works they read and to collaborative group discussions.
                     </p>
                     <br/>
-                    <p>
+                    <p className="text-left">
                         Using this creative mode enabled this group of students to think through the fairy tale
                         differently, ultimately resulting in a re-conceptualization of a literary genre with
                         several original works that each uniquely interpret the contemporary fairy tale. The
@@ -34,12 +34,12 @@ function TextHomeHero(props) {
                         reflective of and particularly suited to our times.
                     </p>
                     <br/>
-                    <p>
+                    <p className="text-left">
                         This project was generously funded by a 2022 Humanities Council Flash Grant and
                         supported by the David A. Gardner ’69 Magic Grant.
                     </p>
                     <br/>
-                    <p>
+                    <p className="text-left">
                         Special thanks to Kathleen Crown and Ruby Marie Marsh at the Humanities Council and to
                         Sarah Thody in the Department of English. All website design was implemented by Ben
                         Chan, Major in Computer Science.

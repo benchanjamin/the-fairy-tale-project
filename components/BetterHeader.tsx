@@ -9,7 +9,8 @@ export default function BetterHeader() {
                 <div className="flex-col items-start">
                     {/* Logo + Button */}
                     <div className="flex justify-between">
-                        <h2 className="text-[14px] text-lightBlack text-left font-bold font-light pl-6 pr-6 font-sans">The Contemporary Fairy Tale Project</h2>
+                        <h2 className="text-[14px] text-lightBlack text-left font-bold font-light pl-6 pr-6 font-sans">The
+                            Contemporary Fairy Tale Project</h2>
 
                         <button
                             id="menu-btn"
@@ -28,19 +29,21 @@ export default function BetterHeader() {
                     {/*Dragon Days*/}
                     {/*The Fire Drill*/}
                     <div className="hidden items-center justify-between space-x-30 md:flex md:text-[20px] lg:text-[28px]
-                    md:mt-[15px] pl-6 pr-6">
+                    md:mt-[15px] pl-6 pr-6 tracking-wider">
                         <NavLink href="/" exact
-                                 className="text-lightBlack italic font-medium hover:text-lightBlue duration-75 ">Home</NavLink>
+                                 className="text-lightBlack italic font-medium hover:text-gray-100 duration-75 ">Home</NavLink>
                         <NavLink href="/blue-trees" exact
-                                 className="text-lightBlack italic font-medium hover:text-lightBlue duration-75">Blue Trees</NavLink>
+                                 className="text-lightBlack italic font-medium hover:text-gray-100 duration-75">Blue Trees</NavLink>
                         <NavLink href="/the-witchfinders" exact
-                                 className="text-lightBlack italic font-medium hover:text-lightBlue duration-75">The Witchfinders</NavLink>
+                                 className="text-lightBlack italic font-medium hover:text-gray-100 duration-75">The Witchfinders</NavLink>
 
                         <NavLink href="/dragon-days" exact
-                                 className="text-lightBlack italic font-medium hover:text-lightBlue duration-75">Dragon Days</NavLink>
+                                 className="text-lightBlack italic font-medium hover:text-gray-100 duration-75">Dragon
+                            Days</NavLink>
 
                         <NavLink href="/the-fire-drill" exact
-                                 className="text-lightBlack italic font-medium hover:text-lightBlue duration-75">The Fire Drill</NavLink>
+                                 className="text-lightBlack italic font-medium hover:text-gray-100 duration-75">The
+                            Fire Drill</NavLink>
 
                     </div>
 
