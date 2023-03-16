@@ -6,7 +6,7 @@ function TextHomeHero(props) {
             {/* Content Words */}
             <div
                 className="flex justify-center pt-[3rem] pb-[3rem] items-top mx-auto w-[80%] 3xl:w-[80%] md:pt-[7rem]">
-                <h1 className="text-lightBlack text-center text-[13px] md:text-[22px] 3xl:text-[50px] font-sans
+                <h1 className="text-lightBlack text-center text-[13px] md:text-[20px] 3xl:text-[50px] font-freight font-normal
                      tracking-[.04rem] ">
                     <p className="text-left">
                         Fairy tales and oral folk tales have been a mainstay of the children’s literature genre

@@ -17,6 +17,7 @@ module.exports = {
             fontFamily: {
                 sans: ['Playfair Display', 'sans-serif'],
                 serif: ['Lato', 'sans-serif'],
+                freight: ["freight-text-pro"]
             },
         },
     },

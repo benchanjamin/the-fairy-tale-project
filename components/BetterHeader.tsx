@@ -28,21 +28,23 @@ export default function BetterHeader() {
                     {/*The Witchfinders*/}
                     {/*Dragon Days*/}
                     {/*The Fire Drill*/}
-                    <div className="hidden items-center justify-between space-x-30 md:flex md:text-[20px] lg:text-[28px]
-                    md:mt-[15px] pl-6 pr-6 tracking-wider">
+                    <div className="hidden items-center justify-between space-x-30 md:flex md:text-[18px] lg:text-[26px]
+                    md:mt-[15px] pl-6 pr-6 tracking-wider font-semibold font-['Almendra']">
                         <NavLink href="/" exact
-                                 className="text-lightBlack italic font-medium hover:text-gray-100 duration-75 ">Home</NavLink>
+                                 className="text-lightBlack font-medium hover:text-gray-100 duration-75 ">Home</NavLink>
                         <NavLink href="/blue-trees" exact
-                                 className="text-lightBlack italic font-medium hover:text-gray-100 duration-75">Blue Trees</NavLink>
+                                 className="text-lightBlack font-medium hover:text-gray-100 duration-75">Blue
+                            Trees</NavLink>
                         <NavLink href="/the-witchfinders" exact
-                                 className="text-lightBlack italic font-medium hover:text-gray-100 duration-75">The Witchfinders</NavLink>
+                                 className="text-lightBlack font-medium hover:text-gray-100 duration-75">The
+                            Witchfinders</NavLink>
 
                         <NavLink href="/dragon-days" exact
-                                 className="text-lightBlack italic font-medium hover:text-gray-100 duration-75">Dragon
+                                 className="text-lightBlack font-medium hover:text-gray-100 duration-75">Dragon
                             Days</NavLink>
 
                         <NavLink href="/the-fire-drill" exact
-                                 className="text-lightBlack italic font-medium hover:text-gray-100 duration-75">The
+                                 className="text-lightBlack font-medium hover:text-gray-100 duration-75">The
                             Fire Drill</NavLink>
 
                     </div>
@@ -50,7 +52,9 @@ export default function BetterHeader() {
 
                     <div
                         id="menu"
-                        className="fixed inset-0 z-20 hidden flex-col items-center self-end w-full h-full m-h-screen px-6 py-1 pt-24 pb-4 tracking-widest text-white uppercase divide-y divide-gray-500 opacity-90 bg-lightBlack font-['Lato']"
+                        className="fixed inset-0 z-20 hidden flex-col items-center self-end w-full h-full m-h-screen
+                        px-6 py-1 pt-24 pb-4 tracking-widest text-white uppercase divide-y divide-gray-500 opacity-90 bg-lightBlack
+                         font-['Lato']"
                     >
                         <div className="w-full py-3 text-center">
                             <Link href="/" className="block hover:text-softRed">Home</Link>
