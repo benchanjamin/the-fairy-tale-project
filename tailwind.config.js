@@ -17,7 +17,8 @@ module.exports = {
             fontFamily: {
                 sans: ['Playfair Display', 'sans-serif'],
                 serif: ['Lato', 'sans-serif'],
-                freight: ["freight-text-pro"]
+                freight: ["freight-text-pro"],
+                eb_garamond: ["EB Garamond"],
             },
         },
     },

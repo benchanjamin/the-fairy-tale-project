@@ -7,7 +7,8 @@ export default function DragonDays() {
             <Head>
                 <title>Dragon Days</title>
             </Head>
-            <HomeHero displayImages={false}/>
+            <HomeHero displayImages={false}>
+            </HomeHero>
         </>
     )
 }

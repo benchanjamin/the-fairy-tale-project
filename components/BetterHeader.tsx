@@ -31,20 +31,20 @@ export default function BetterHeader() {
                     <div className="hidden items-center justify-between space-x-30 md:flex md:text-[18px] lg:text-[26px]
                     md:mt-[15px] pl-6 pr-6 tracking-wider font-semibold font-['Almendra']">
                         <NavLink href="/" exact
-                                 className="text-lightBlack font-medium hover:text-gray-100 duration-75 ">Home</NavLink>
+                                 className="text-lightBlack  font-medium hover:text-gray-100 duration-75 ">Home</NavLink>
                         <NavLink href="/blue-trees" exact
-                                 className="text-lightBlack font-medium hover:text-gray-100 duration-75">Blue
+                                 className="text-lightBlack  font-medium hover:text-gray-100 duration-75">Blue
                             Trees</NavLink>
                         <NavLink href="/the-witchfinders" exact
-                                 className="text-lightBlack font-medium hover:text-gray-100 duration-75">The
+                                 className="text-lightBlack  font-medium hover:text-gray-100 duration-75">The
                             Witchfinders</NavLink>
 
                         <NavLink href="/dragon-days" exact
-                                 className="text-lightBlack font-medium hover:text-gray-100 duration-75">Dragon
+                                 className="text-lightBlack  font-medium hover:text-gray-100 duration-75">Dragon
                             Days</NavLink>
 
                         <NavLink href="/the-fire-drill" exact
-                                 className="text-lightBlack font-medium hover:text-gray-100 duration-75">The
+                                 className="text-lightBlack  font-medium hover:text-gray-100 duration-75">The
                             Fire Drill</NavLink>
 
                     </div>

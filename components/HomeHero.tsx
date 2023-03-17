@@ -3,10 +3,12 @@ import ImageHomeHero from "@components/ImageHomeHero/ImageHomeHero";
 import TextHomeHero from "@components/TextHomeHero";
 
 
-function HomeHero({displayImages}) {
+function HomeHero({displayImages, children}) {
     return (
         <section id="hero">
-            <TextHomeHero/>
+            <TextHomeHero>
+                {children}
+            </TextHomeHero>
             {displayImages && <ImageHomeHero/>}
         </section>
     );
