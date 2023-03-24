@@ -7,7 +7,8 @@ export default function TheFireDrill() {
             <Head>
                 <title>The Fire Drill</title>
             </Head>
-            <HomeHero displayImages={false}/>
+            <HomeHero displayImages={false}>
+            </HomeHero>
         </>
     )
 }

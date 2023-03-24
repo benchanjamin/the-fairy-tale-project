@@ -7,7 +7,8 @@ export default function TheWitchfinders() {
             <Head>
                 <title>The Witchfinders</title>
             </Head>
-            <HomeHero displayImages={false}/>
+            <HomeHero displayImages={false}>
+            </HomeHero>
         </>
     )
 }
