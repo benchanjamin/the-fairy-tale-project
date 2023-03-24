@@ -5,7 +5,7 @@ export default function TheDeer() {
     return (
         <>
             <Head>
-                <title>Dragon Days</title>
+                <title>The Deer</title>
             </Head>
             <HomeHero displayImages={false} >
                 <div className="text-left">
