@@ -11,47 +11,82 @@ export default function BlueTrees() {
             </Head>
             <HomeHero displayImages={false}>
 
-                <p className="text-left">
-                    Fairy tales and oral folk tales have been a mainstay of the children’s literature genre
-                    for many centuries. Specifically, across Western European traditions, the fairy tale
-                    genre became popular through the works of authors such as Madame d’Aulnoy and the
-                    Brothers Grimm. As cultures shift, the fairy tale is often adapted, including into other
-                    mediums.
-                </p>
-                <br/>
-                <p className="text-left">
-                    The Contemporary Fairy Tale Project aims to explore the contemporary fairy tale in a
-                    post-pandemic, 21st century moment. Through extensive research on fairy tales and folk
-                    tales in different historical and cultural contexts, undergraduate students Lara Katz,
-                    Charlotte Leane, Allison Peart, and Sierra Stern engaged critically with the fairy tale
-                    genre under the guidance of Kate Clairmont, Ph.D. Candidate in the Department of
-                    English. After researching, each student developed a creative writing project as a
-                    direct response both to the works they read and to collaborative group discussions.
-                </p>
-                <br/>
-                <p className="text-left">
-                    Using this creative mode enabled this group of students to think through the fairy tale
-                    differently, ultimately resulting in a re-conceptualization of a literary genre with
-                    several original works that each uniquely interpret the contemporary fairy tale. The
-                    goal of The Contemporary Fairy Tale Project is to provide holistically diverse stories
-                    reflective of and particularly suited to our times.
-                </p>
-                <br/>
-                <p className="text-left">
-                    This project was generously funded by a 2022 Humanities Council Flash Grant and
-                    supported by the David A. Gardner ’69 Magic Grant.
-                </p>
-                <br/>
-                <p className="text-left">
-                    Special thanks to Kathleen Crown and Ruby Marie Marsh at the Humanities Council and to
-                    Sarah Thody in the Department of English. All website design was implemented by Ben
-                    Chan, Major in Computer Science.
-                </p>
+                <p className="text-left">My name is Allison Peart, and I&rsquo;m a class of 2024 anthropology major. My
+                    collection of
+                    stories,&nbsp;Blue Trees,&nbsp;was inspired by my research on fairy tales from a variety of cultures
+                    and regions. Beginning this project, I wanted to expose myself to fairy tales and folk tales that
+                    had developed in contexts unfamiliar to me. Two of my main goals in doing so were to cultivate a
+                    better idea of general themes in fairy tales and, hopefully, help my writing wriggle past the
+                    boundaries of my own preconceptions. With these goals in mind, I read tales from the Pawnee Nation
+                    of North America, Germany, Japan, Nigeria, Brazil, Serbia, the Māori&nbsp;of New Zealand, Egypt,
+                    Celtic nations, the Arabian Peninsula, and Korea. Some of my favorite stories I researched
+                    included &ldquo;The Bamboo Cutter and the Moon Child&rdquo; from 10th century Japan; &ldquo;The
+                    Adventures of a Fisherman&rsquo;s Son,&rdquo; a Brazilian folktale; &ldquo;How the Moon was
+                    Made,&rdquo; a Māori folktale; and &ldquo;A Bridegroom for Miss Mole,&rdquo; a Korean
+                    folktale.&nbsp;</p>
+                <p><br/></p>
+                <p className="text-left">Furthermore, I must always give enduring praise and everlasting credit to Peter
+                    S. Beagle, author
+                    of&nbsp;The Last Unicorn,&nbsp;a novel that shaped the writer I am today, and which I consider to be
+                    a prime example of a modern fairy tale. Finally, I send love to God, my father, mother, sisters, and
+                    Contemporary Fairy Tale colleagues for always seeding and fostering the work of
+                    creativity.&nbsp;</p>
+                <p><br/></p>
+                <p className="text-left">In writing my contemporary fairy tales, I initially began with an interest in
+                    themes of gender,
+                    romance, and heteronormativity, and wanted to write stories about emotional intelligence and the
+                    power of friendship. Mainly, I hoped to write fairy tales promoting positive values for young boys,
+                    since I found many of the messages about masculinity in my research unsuitable for the present day.
+                    However, now that&nbsp;Blue Trees&nbsp;is completed, I believe that the most direct transference
+                    between my research and the final product has related more to broad discoveries about what the fairy
+                    tale can do: how unexplained fantastical elements, symbols and ambiguity, modes of teaching, and
+                    common constructs give it power.</p>
+                <p><br/></p>
+                <p className="text-left">Blue Trees has been a way for me to explore psychological complexity in the
+                    fairy tale, since
+                    traditionally that type of inner development is absent in the fairy tale. In Blue Trees, you may
+                    find themes of self-love, self-discovery, isolation, devotion, kindness, and family. What I hope you
+                    will find, however&mdash;and what I believe a contemporary fairy tale should offer&mdash;is a chance
+                    to discover yourself.&nbsp;</p>
 
                 <div className="mx-auto mt-10 -mb-7">
-                    <NavLink href="the-deer" className="text-lightBlack font-medium hover:text-gray-100 duration-75" exact>
+                    <NavLink href="the-shadows-of-the-leaves"
+                             className="text-lightBlack font-medium hover:text-gray-100 duration-75"
+                             exact>
+                        The Shadows of the Leaves
+                    </NavLink>
+                    <br/>
+                    <NavLink href="the-princess's-handmaiden" className="text-lightBlack font-medium hover:text-gray-100 duration-75"
+                             exact>
+                        The Princess&apos;s Handmaiden
+                    </NavLink>
+                    <br/>
+                    <NavLink href="what-cherry-said" className="text-lightBlack font-medium hover:text-gray-100 duration-75"
+                             exact>
+                        What Cherry Said
+                    </NavLink>
+                    <br/>
+                    <NavLink href="the-enchantress" className="text-lightBlack font-medium hover:text-gray-100 duration-75"
+                             exact>
+                        The Enchantress
+                    </NavLink>
+                    <br/>
+                    <NavLink href="the-deer" className="text-lightBlack font-medium hover:text-gray-100 duration-75"
+                             exact>
                         The Deer
                     </NavLink>
+                    <br/>
+                    <NavLink href="bluestar" className="text-lightBlack font-medium hover:text-gray-100 duration-75"
+                             exact>
+                        Bluestar
+                    </NavLink>
+                    <br/>
+                    <NavLink href="the-landscaper's-son" className="text-lightBlack font-medium hover:text-gray-100 duration-75"
+                             exact>
+                        The Landscaper&apos;s Son
+                    </NavLink>
+                    <br/>
+
                 </div>
 
             </HomeHero>
