@@ -166,17 +166,17 @@ export default function TheDeer() {
                     <br/>
                 <p>It followed the woman down the other side of the lightly-wooded hill, through modestly crunching leaves and past thin, scraping bushes. A few steps past the base of the hill, the woman stopped beneath an especially tall elm. In its height, the tree seemed to curve over them. The woman placed the palm of her hand against the rough, lichen-covered bark, and closed her eyes.</p>
                     <br/>
-                <p>&quot;I haven't come back here in a long time,&quot; she said. &quot;It used to be our spot.&quot;</p>
+                <p>&quot;I haven&apos;t come back here in a long time,&quot; she said. &quot;It used to be our spot.&quot;</p>
                     <br/>
                 <p>The deer waited.</p>
                     <br/>
                 <p>&quot;I wish I&mdash;&quot; all of a sudden the woman whipped around, eyes wide, at first, before they narrowed in accusation. &quot;Wait. Wait. All I wanted was to see this place again&mdash;what are you doing to me?&quot; Her voice was strained and hoarse.</p>
                     <br/>
-                <p>Wind blew, carrying leaves in a jumping dance across the ground, shaking the limbs of the trees. Amidst that dancing movement, the deer stood still, lightly immoveable, as if it made no imprint on the ground at all. It calmly held the woman's gaze.</p>
+                <p>Wind blew, carrying leaves in a jumping dance across the ground, shaking the limbs of the trees. Amidst that dancing movement, the deer stood still, lightly immoveable, as if it made no imprint on the ground at all. It calmly held the woman&apos;s gaze.</p>
                     <br/>
                 <p>&quot;I do nothing. It is your wish to make, or not to make.&quot;</p>
                     <br/>
-                <p>The woman swallowed a pained sound and turned back to the tree. Her shoulders hunched up towards her ears before dropping back. After a long while, the wind carried her words back to the deer's waiting ears.</p>
+                <p>The woman swallowed a pained sound and turned back to the tree. Her shoulders hunched up towards her ears before dropping back. After a long while, the wind carried her words back to the deer&apos;s waiting ears.</p>
                     <br/>
                 <p>&quot;I wish I could forget.&quot;</p>
                     <br/>
