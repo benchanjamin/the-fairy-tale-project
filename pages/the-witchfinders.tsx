@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import HomeHero from "@components/HomeHero";
 import {NavLink} from "@components/NavLink";
-import React from "react";
 
 export default function TheWitchfinders() {
     return (
@@ -44,27 +43,27 @@ export default function TheWitchfinders() {
                     <NavLink href="a-girl-and-a-cat"
                              className="text-lightBlack font-medium hover:text-gray-100 duration-75"
                              exact>
-                        A Girl and a Cat
+                        Chapter 1: A Girl and a Cat
                     </NavLink>
                     <br/>
                     <NavLink href="downstairs" className="text-lightBlack font-medium hover:text-gray-100 duration-75"
                              exact>
-                        Downstairs
+                        Chapter 2: Downstairs
                     </NavLink>
                     <br/>
                     <NavLink href="penthesilea" className="text-lightBlack font-medium hover:text-gray-100 duration-75"
                              exact>
-                        Penthesilea
+                        Chapter 3: Penthesilea
                     </NavLink>
                     <br/>
                     <NavLink href="in-the-magic-kitchen" className="text-lightBlack font-medium hover:text-gray-100 duration-75"
                              exact>
-                        In the Magic Kitchen
+                        Chapter 4: In the Magic Kitchen
                     </NavLink>
                     <br/>
                     <NavLink href="witchfinding" className="text-lightBlack font-medium hover:text-gray-100 duration-75"
                              exact>
-                        Witchfinding
+                        Chapter 5: Witchfinding
                     </NavLink>
 
                 </div>
