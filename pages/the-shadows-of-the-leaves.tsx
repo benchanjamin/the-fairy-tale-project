@@ -9,7 +9,7 @@ export default function TheShadowsOfTheLeaves() {
             </Head>
             <HomeHero displayImages={false}>
                 <h3 className="font-bold text-2xl">The Shadows of the Leaves</h3>
-                <h5>By Allison Peart</h5>
+                <h5 className="italic">By Allison Peart</h5>
                 <br/>
 
                 <p className="text-left">In the old days of a certain country, there lived a young person who liked to sit in the afternoons,
