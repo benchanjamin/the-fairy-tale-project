@@ -94,7 +94,7 @@ export default function TheShadowsOfTheLeaves() {
                 <p className="text-left">&ldquo;Why not?&rdquo; asked the young person, but the shadows danced along to their music so
                     beautifully that they soon lost their curiosity to the enchanting spell of composing song.&nbsp;</p>
                 <p className="text-left"><br/></p>
-                <p className="text-left">***</p>
+                <p>***</p>
                 <p className="text-left"><br/></p>
                 <p className="text-left">True to their word&mdash;and, frankly, enraptured with the shadows of the leaves&rsquo; earnest
                     praise&mdash;the young person went daily to sing beneath the lonely tree on the edge of the field.
@@ -136,7 +136,7 @@ export default function TheShadowsOfTheLeaves() {
                     uncompromising, bedrock tone. Sighing, they gazed apologetically at their lyre, resting in a corner
                     by the stove, and drank the rest of their soup.&nbsp;</p>
                 <p className="text-left"><br/></p>
-                <p className="text-left">***</p>
+                <p>***</p>
                 <p className="text-left"><br/></p>
                 <p className="text-left">The next day, the young person gathered up their lyre, and the lunch their parent had tied up in a
                     cloth for them&mdash;soft nut-cheese and soup-soaked bread&mdash;and made the morning-long trek to
@@ -182,7 +182,7 @@ export default function TheShadowsOfTheLeaves() {
                     starry, approving gaze had chased all thoughts of the shadows of the leaves from the young
                     person&rsquo;s mind.&nbsp;</p>
                 <p className="text-left"><br/></p>
-                <p className="text-left">***</p>
+                <p>***</p>
                 <p className="text-left"><br/></p>
                 <p className="text-left">A few days later, the young person felt too tired to walk to the village. They were lounging in bed,
                     writing a song to bring to the miller&rsquo;s child the next day, when their parent asked them to
@@ -246,7 +246,7 @@ export default function TheShadowsOfTheLeaves() {
                 <p className="text-left"><br/></p>
                 <p className="text-left">Mechanically, the young person reached for their lyre, and began to play.&nbsp;</p>
                 <p className="text-left"><br/></p>
-                <p className="text-left">***</p>
+                <p>***</p>
                 <p className="text-left"><br/></p>
                 <p className="text-left">The young person had no concept of time passing as they stood beneath the tree, all of their body
                     frozen except for their fingers and their tongue. The entire time they played, the shadows of the
@@ -264,7 +264,7 @@ export default function TheShadowsOfTheLeaves() {
                     fell to the grass. Hungrily, the shadows of the leaves fluttered desperately over the lyre. But they
                     could do no more than send wind shivering noiselessly along the unplucked strings.&nbsp;</p>
                 <p className="text-left"><br/></p>
-                <p className="text-left">***</p>
+                <p>***</p>
                 <p className="text-left"><br/></p>
                 <p className="text-left">That evening, the young person&rsquo;s parent came home from the village to find their house empty of
                     both nuts and their child. Tired and annoyed, the parent waited, assuming their child had fallen

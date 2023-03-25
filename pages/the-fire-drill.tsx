@@ -8,12 +8,12 @@ export default function TheFireDrill() {
                 <title>The Fire Drill</title>
             </Head>
             <HomeHero displayImages={false}>
-                <p className="text-left">&nbsp; &nbsp;&nbsp;My name is Sierra, and I&rsquo;m an English Major in the Class of &rsquo;24,
+                <p className="text-left">My name is Sierra, and I&rsquo;m an English Major in the Class of &rsquo;24,
                     pursuing certificates in Creative Writing and African American Studies. In my studies at Princeton,
                     my interests lie primarily in Black genre fiction, or stories that center or interpret Blackness
                     through supernatural, fantastical, or surreal means. &nbsp;</p>
                 <br/>
-                <p className="text-left">&nbsp; &nbsp;&nbsp;My mini screenplay, entitled &ldquo;Arcadia,&rdquo; is a modern retelling of the
+                <p className="text-left">My mini screenplay, entitled &ldquo;Arcadia,&rdquo; is a modern retelling of the
                     Greek myth of Atalanta that substitutes the godly magic of the original story for modern witchcraft.
                     In &ldquo;Arcadia,&rdquo; set in the suburban Californian town of the same name, star debater Melvin
                     falls for Addy, a local track and field star, who agrees to go out with him if he can beat her in a
@@ -27,7 +27,7 @@ export default function TheFireDrill() {
                     Meleager will die. In &ldquo;Arcadia,&rdquo; I combine these myths, and Melvin embodies both
                     Melanion and Meleager.</p>
                 <br/>
-                <p className="text-left">&nbsp; &nbsp;&nbsp;In creating this project, I was inspired by movies like&nbsp;A Cinderella
+                <p className="text-left">In creating this project, I was inspired by movies like&nbsp;A Cinderella
                     Story&nbsp;starring Hillary Duff,&nbsp;She&rsquo;s the Man&nbsp;with Amanda Bynes, and other movies
                     from the early to mid-2000s that attempt to reconcile centuries-old fairytales and classics with
                     contemporary circumstances and characters. When I was little, I was captivated by Greek mythology
@@ -35,7 +35,7 @@ export default function TheFireDrill() {
                     stories were more central to my childhood than classical fairy tales, I found myself wishing not to
                     live among princes or mermaids, but instead to relive the adventures of the Greek heroes.&nbsp;</p>
                 <br/>
-                <p className="text-left">&nbsp; &nbsp;&nbsp;Despite being a myth, the story of Atalanta is alive with fairy tale potential. In&nbsp;A Cinderella
+                <p className="text-left">Despite being a myth, the story of Atalanta is alive with fairy tale potential. In&nbsp;A Cinderella
                     Story,&nbsp;the drought in Los Angeles&rsquo;s San Fernando Valley is used as an allegory for the
                     central romance &mdash; when the two finally kiss, a downpour of rain comes down, marking the end of
                     uncertainty and despair. I was also inspired by classical fairy tales like &ldquo;The Necklace of
@@ -47,7 +47,7 @@ export default function TheFireDrill() {
                     cynicism, I wanted to imagine a world in which girls use magic for their own empowerment, although
                     not always for the right reasons.&nbsp;</p>
                 <br/>
-                <p className="text-left">&nbsp; &nbsp; In my mind, a contemporary fairy tale considers the place that magic, symbols,
+                <p className="text-left">In my mind, a contemporary fairy tale considers the place that magic, symbols,
                     and &ldquo;happily ever afters&rdquo; have in our modern world &mdash; if witches existed, would
                     they exercise their powers indiscriminately, or would they use them to get ahead in their pursuit of
                     high school glory, romance, or success on a much larger scale? Though race is not the central focus
