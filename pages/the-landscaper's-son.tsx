@@ -171,7 +171,6 @@ export default function TheLandscaperSSon() {
                     at you
                     go.&quot;&nbsp;</p>
                 <p className="text-left"><br/></p>
-                <p>[the end]</p>
             </HomeHero>
         </>
     )

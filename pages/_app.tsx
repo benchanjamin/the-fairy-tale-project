@@ -7,10 +7,10 @@ function MyApp({Component, pageProps}) {
             <BetterHeader/>
             <Component {...pageProps} />
             <div className="mx-auto pt-4 pb-4" id="footer">
-                <div className="text-sm text-lightBlack text-center md:text-md font-['Playfair Display']">
+                <div className="text-sm text-lightBlack text-center md:text-md font-['Almendra']">
                     This project was sponsored by a Flash Grant from the Princeton University Humanities Council
                 </div>
-                <div className="text-sm text-lightBlack text-center mt-2 md:text-md">
+                <div className="text-sm text-lightBlack text-center mt-2 md:text-md font-['Almendra']">
                     Copyright © 2023
                 </div>
             </div>

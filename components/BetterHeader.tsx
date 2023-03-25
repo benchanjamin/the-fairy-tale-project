@@ -9,7 +9,7 @@ export default function BetterHeader() {
                 <div className="flex-col items-start">
                     {/* Logo + Button */}
                     <div className="flex justify-between">
-                        <h2 className="text-[14px] text-lightBlack text-left font-bold font-light pl-6 pr-6 font-sans">The
+                        <h2 className="text-[16px] text-lightBlack text-left font-bold font-light pl-6 pr-6 font-sans font-['cormorant-garamond']">The
                             Contemporary Fairy Tale Project</h2>
 
                         <button
