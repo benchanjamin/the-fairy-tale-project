@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import HomeHero from "@components/HomeHero";
+import RubyTalesTOC from "@components/RubyTalesTOC";
 
 export default function RubyTales() {
     return (
@@ -53,6 +54,7 @@ export default function RubyTales() {
                     during the pandemic, grows up. They must face puberty head-on as though it is an alien in itself,
                     and they also must do so without a parental figure&mdash;like many other children during the
                     pandemic&mdash;and without the presence of the like-bodied coevals from whom they are isolated.</p>
+                <RubyTalesTOC/>
             </HomeHero>
         </>
     )
