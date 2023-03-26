@@ -2,6 +2,7 @@ import Head from "next/head";
 import HomeHero from "@components/HomeHero";
 import Image from "next/image"
 import React from "react";
+import TheWitchFindersTOC from "@components/TheWitchFindersTOC";
 
 export default function AGirlAndACat() {
     return (
@@ -124,6 +125,7 @@ export default function AGirlAndACat() {
                     was nowhere for her hands to find purchase. Despair heavy in the pit of her stomach, she sat down in
                     the wet grass in front of the gate and stared numbly through the bars into the woods beyond. There
                     was nowhere to go &ndash; a dead end.</p>
+                <TheWitchFindersTOC/>
             </HomeHero>
         </>
     )

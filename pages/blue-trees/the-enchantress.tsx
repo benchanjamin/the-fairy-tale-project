@@ -1,5 +1,8 @@
 import Head from "next/head";
 import HomeHero from "@components/HomeHero";
+import {NavLink} from "@components/NavLink";
+import React from "react";
+import BlueTreesTOC from "@components/BlueTreesTOC";
 
 export default function TheEnchantress() {
     return (
@@ -132,7 +135,7 @@ export default function TheEnchantress() {
                     kindness repaid.&nbsp;</p>
                 <p className="text-left"><br/></p>
                 <p className="text-left"><br/></p>
-                <p>[the end]</p>
+                <BlueTreesTOC/>
             </HomeHero>
         </>
     )

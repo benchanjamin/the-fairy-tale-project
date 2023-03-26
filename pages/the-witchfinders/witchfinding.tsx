@@ -2,6 +2,7 @@ import HomeHero from "@components/HomeHero";
 import Head from "next/head";
 import Image from "next/image";
 import React from "react";
+import TheWitchFindersTOC from "@components/TheWitchFindersTOC";
 
 
 export default function Witchfinding() {
@@ -227,6 +228,7 @@ export default function Witchfinding() {
                 <br/>
 
                 <p className="text-left">  They left her in the cavern tending her fire, and continued on.</p>
+                <TheWitchFindersTOC/>
             </HomeHero>
         </>
 )

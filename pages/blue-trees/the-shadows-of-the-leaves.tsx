@@ -1,5 +1,7 @@
 import Head from "next/head";
 import HomeHero from "@components/HomeHero";
+import BlueTreesTOC from "@components/BlueTreesTOC";
+import React from "react";
 
 export default function TheShadowsOfTheLeaves() {
     return (
@@ -277,6 +279,8 @@ export default function TheShadowsOfTheLeaves() {
                 <p className="text-left"><br/></p>
                 <p className="text-left">The only response was the distant, rustling song, the quiet screams, of leaves dancing in the
                     wind.&nbsp;</p>
+                <BlueTreesTOC/>
+
             </HomeHero>
         </>
     )

@@ -1,6 +1,7 @@
 import HomeHero from "@components/HomeHero";
 import {NavLink} from "@components/NavLink";
 import Head from "next/head";
+import TheWitchFindersTOC from "@components/TheWitchFindersTOC";
 
 
 export default function Downstairs() {
@@ -116,6 +117,7 @@ export default function Downstairs() {
                 <p className="text-left">  There was a park to their left, a small green rectangle lined with bushes and
                     flowerbeds. Feeling pathetic, Obelie crawled under one of the bushes, pulling her sweater tightly
                     around her, and fell immediately into a dreamless sleep.</p>
+                <TheWitchFindersTOC/>
             </HomeHero>
         </>
     )

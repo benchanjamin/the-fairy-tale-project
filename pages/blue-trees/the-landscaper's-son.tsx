@@ -1,5 +1,7 @@
 import Head from "next/head";
 import HomeHero from "@components/HomeHero";
+import BlueTreesTOC from "@components/BlueTreesTOC";
+import React from "react";
 
 export default function TheLandscaperSSon() {
     return (
@@ -171,6 +173,7 @@ export default function TheLandscaperSSon() {
                     at you
                     go.&quot;&nbsp;</p>
                 <p className="text-left"><br/></p>
+                <BlueTreesTOC/>
             </HomeHero>
         </>
     )

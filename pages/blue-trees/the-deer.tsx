@@ -1,5 +1,8 @@
 import Head from "next/head";
 import HomeHero from "@components/HomeHero";
+import {NavLink} from "@components/NavLink";
+import React from "react";
+import BlueTreesTOC from "@components/BlueTreesTOC";
 
 export default function TheDeer() {
     return (
@@ -425,6 +428,7 @@ export default function TheDeer() {
                 <br/>
                 <p className="text-left">The woman yawned and fell asleep. <br/>
                 </p>
+                <BlueTreesTOC/>
             </HomeHero>
         </>
     )

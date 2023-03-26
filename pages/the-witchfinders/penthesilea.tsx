@@ -2,6 +2,7 @@ import HomeHero from "@components/HomeHero";
 import Head from "next/head";
 import Image from "next/image";
 import React from "react";
+import TheWitchFindersTOC from "@components/TheWitchFindersTOC";
 
 
 export default function Penthesilea() {
@@ -195,6 +196,7 @@ export default function Penthesilea() {
                     beginning to fall closed under their weight. &ldquo;Good night Kester.&rdquo;</p>
                 <br/>
                 <p className="text-left">  &ldquo;Good night,&rdquo; came his reply.</p>
+                <TheWitchFindersTOC/>
             </HomeHero>
         </>
 )

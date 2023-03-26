@@ -2,6 +2,7 @@ import HomeHero from "@components/HomeHero";
 import Head from "next/head";
 import Image from "next/image";
 import React from "react";
+import TheWitchFindersTOC from "@components/TheWitchFindersTOC";
 
 
 export default function InTheMagicKitchen() {
@@ -244,6 +245,7 @@ export default function InTheMagicKitchen() {
                     sign: &ldquo;Pen&rsquo;s Pastries: closed until we find Pen&rdquo; (Miles checked her spelling) and
                     posted it in the window. They packed a large carpet bag full of sandwiches, and a thermos of
                     lemonade. Then they set out.</p>
+                <TheWitchFindersTOC/>
             </HomeHero>
         </>
 )

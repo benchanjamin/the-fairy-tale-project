@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import HomeHero from "@components/HomeHero";
-import {NavLink} from "@components/NavLink";
+import TheWitchFindersTOC from "@components/TheWitchFindersTOC";
 
 export default function TheWitchfinders() {
     return (
@@ -9,7 +9,8 @@ export default function TheWitchfinders() {
                 <title>The Witchfinders</title>
             </Head>
             <HomeHero displayImages={false}>
-                <p className="text-left">I&rsquo;m Theo L., an English major with certificates in Computer Science and Linguistics. When I was
+                <p className="text-left">I&rsquo;m Theo L., an English major with certificates in Computer Science and
+                    Linguistics. When I was
                     a child, some of my favorite books were Madeleine L&rsquo;Engle&rsquo;s&nbsp;A Wrinkle in Time,
                     Norton Juster&rsquo;s&nbsp;The Phantom Tollbooth, Phillip Pullman&rsquo;s&nbsp;The Golden Compass,
                     and Terry Pratchett&rsquo;s&nbsp;Discworld&nbsp;series. I&apos;ve always loved the more strange and
@@ -18,7 +19,8 @@ export default function TheWitchfinders() {
                     elements, yielding results that are sometimes funny, sometimes surreal, and sometimes profoundly
                     touching.</p>
                 <p><br/></p>
-                <p className="text-left">In my research, I traced the history of the fairy tale genre back to George MacDonald, considered by
+                <p className="text-left">In my research, I traced the history of the fairy tale genre back to George
+                    MacDonald, considered by
                     many the first fantasy writer. I never read his 1867 story &ldquo;The Golden Key&rdquo; as a child,
                     but when I did as an adult I felt like I was meeting an old friend. It has everything I most love
                     about the genre &mdash; he drew on fairy tale symbolism, Christian mysticism, and tales from various
@@ -27,7 +29,8 @@ export default function TheWitchfinders() {
                     control the motions of the cosmos with balls of colored yarn, and two brave children gifted a key by
                     fairies travel between worlds on a rainbow bridge in search of the door it unlocks.</p>
                 <p><br/></p>
-                <p className="text-left">My story, &ldquo;The Witchfinders,&rdquo; was inspired by all of these influences. I wanted to create
+                <p className="text-left">My story, &ldquo;The Witchfinders,&rdquo; was inspired by all of these
+                    influences. I wanted to create
                     a world equally enchanting and frightening, strange and familiar. I wanted it to have the shifting,
                     dreamlike qualities of a fairy tale, where anything is possible and a talking cat is taken in
                     stride. However, even in a fanciful world apart from reality, the emotional core of a story has to
@@ -38,37 +41,8 @@ export default function TheWitchfinders() {
                     Witchfinders&rdquo; is able to live up to its inspirations, with nuanced themes and accessible but
                     challenging vocabulary, wrapped up in an imaginary world that will delight and intrigue young
                     readers.</p>
-
-                <div className="mx-auto mt-10">
-                    <NavLink href="the-witchfinders/a-girl-and-a-cat"
-                             className="text-lightBlack font-medium hover:text-gray-100 duration-75 font-bold"
-                             exact>
-                        Chapter 1: A Girl and a Cat
-                    </NavLink>
-                    <br/>
-                    <NavLink href="the-witchfinders/downstairs" className="text-lightBlack font-medium hover:text-gray-100 duration-75 font-bold"
-                             exact>
-                        Chapter 2: Downstairs
-                    </NavLink>
-                    <br/>
-                    <NavLink href="the-witchfinders/penthesilea" className="text-lightBlack font-medium hover:text-gray-100 duration-75 font-bold"
-                             exact>
-                        Chapter 3: Penthesilea
-                    </NavLink>
-                    <br/>
-                    <NavLink href="the-witchfinders/in-the-magic-kitchen" className="text-lightBlack font-medium hover:text-gray-100 duration-75 font-bold"
-                             exact>
-                        Chapter 4: In the Magic Kitchen
-                    </NavLink>
-                    <br/>
-                    <NavLink href="the-witchfinders/witchfinding" className="text-lightBlack font-medium hover:text-gray-100 duration-75 font-bold"
-                             exact>
-                        Chapter 5: Witchfinding
-                    </NavLink>
-
-                </div>
-
+                <TheWitchFindersTOC/>
             </HomeHero>
         </>
-)
+    )
 }

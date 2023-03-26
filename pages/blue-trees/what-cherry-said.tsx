@@ -1,5 +1,7 @@
 import Head from "next/head";
 import HomeHero from "@components/HomeHero";
+import BlueTreesTOC from "@components/BlueTreesTOC";
+import React from "react";
 
 export default function WhatCherrySaid() {
     return (
@@ -228,7 +230,7 @@ export default function WhatCherrySaid() {
                 <p className="text-left">Well, no, not&nbsp;those&nbsp;words. These ones. &ldquo;You&rsquo;re perfect
                     just the way you are.&rdquo;&nbsp;</p>
                 <p className="text-left"><br/></p>
-                <p>[the end]</p>
+                <BlueTreesTOC/>
             </HomeHero>
         </>
     )

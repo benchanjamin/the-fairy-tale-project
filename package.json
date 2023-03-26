@@ -12,7 +12,6 @@
     "@headlessui/react": "^1.7.11",
     "@heroicons/react": "^2.0.16",
     "d3": "^5.9.2",
-    "jquery": "^3.6.1",
     "next": "12.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",

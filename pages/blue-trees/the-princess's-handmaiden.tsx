@@ -1,5 +1,7 @@
 import Head from "next/head";
 import HomeHero from "@components/HomeHero";
+import BlueTreesTOC from "@components/BlueTreesTOC";
+import React from "react";
 
 export default function ThePrincessSHandmaiden() {
     return (
@@ -95,6 +97,8 @@ export default function ThePrincessSHandmaiden() {
                 <p className="text-left">The heartbreak the princess nursed was as foreign to her as another language, as bewildering and strange as magic. And yet, simultaneously, it was as familiar to her as the morose beat of her own heart. As the warmth of her mother&rsquo;s touch.&nbsp;</p>
                 <p className="text-left"><br/></p>
                 <p className="text-left">The sorrow clung to the princess for her whole life, until she was very old. Only in the soft finality of her last breath did it depart.&nbsp;</p>
+                <BlueTreesTOC/>
+
             </HomeHero>
         </>
     )

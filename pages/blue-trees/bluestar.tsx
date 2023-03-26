@@ -1,5 +1,8 @@
 import Head from "next/head";
 import HomeHero from "@components/HomeHero";
+import {NavLink} from "@components/NavLink";
+import React from "react";
+import BlueTreesTOC from "@components/BlueTreesTOC";
 
 export default function Bluestar() {
     return (
@@ -323,7 +326,7 @@ export default function Bluestar() {
                 <p className="text-left"><br/></p>
                 <p className="text-left">And far above, the starherd laughed, as the stars welcomed back the one they had lost.&nbsp;</p>
                 <p className="text-left"><br/></p>
-                <p>[the end]</p>
+                <BlueTreesTOC/>
             </HomeHero>
         </>
 )
