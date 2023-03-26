@@ -1,5 +1,7 @@
 import HomeHero from "@components/HomeHero";
 import Head from "next/head";
+import Image from "next/image";
+import React from "react";
 
 
 export default function Witchfinding() {
@@ -8,8 +10,16 @@ export default function Witchfinding() {
             <Head>
                 <title>Chapter 5: Witchfinding</title>
             </Head>
+            <div className="w-full md:w-1/3 relative h-[60vh] mx-auto mt-10" style={{borderRadius: '40%', overflow: 'hidden'}}>
+                <Image
+                    layout={"fill"}
+                    objectFit={"contain"}
+                    alt=""
+                    src="/static/another version.PNG"
+                />
+            </div>
             <HomeHero displayImages={false}>
-                <h2>CHAPTER 5: Witchfinding</h2>
+                <h2 className="font-bold">CHAPTER 5: Witchfinding</h2>
                 <br/>
 
                 <p className="text-left"> &ldquo;Where exactly are we going?&rdquo; Miles thought to ask after they had been

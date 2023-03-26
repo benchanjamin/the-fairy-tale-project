@@ -1,11 +1,18 @@
 import Head from 'next/head'
 import HomeHero from "@components/HomeHero";
+import dynamic from "next/dynamic";
+import PDFViewer from "@components/PDFViewer/PDFViewer";
+//
+// const PDFViewer = dynamic(() => import("../components/PDFViewer"), {
+//     ssr: false
+// });
 
-export default function TheFireDrill() {
+
+export default function Arcadia() {
     return (
         <>
             <Head>
-                <title>The Fire Drill</title>
+                <title>Arcadia</title>
             </Head>
             <HomeHero displayImages={false}>
                 <p className="text-left">My name is Sierra, and I&rsquo;m an English Major in the Class of &rsquo;24,
@@ -61,6 +68,9 @@ export default function TheFireDrill() {
                     perfect world, or in the case of my story, attempts to externalize, on a personal scale, invisible
                     institutions that stand in the way of fairy tale endings.&nbsp;</p>
             </HomeHero>
+            <div className="-mt-8">
+            <PDFViewer/>
+            </div>
         </>
     )
 }

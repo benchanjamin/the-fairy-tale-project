@@ -10,7 +10,7 @@ export default function Downstairs() {
                 <title>Chapter 2: Downstairs</title>
             </Head>
             <HomeHero displayImages={false}>
-                <h2>CHAPTER 2: Downstairs</h2>
+                <h2 className="font-bold">CHAPTER 2: Downstairs</h2>
                 <br/>
                 <p className="text-left"> Often at this moment in stories, the hero makes a great realization, or is rescued
                     at the last minute by some unexpected friend. Obelie had read many stories, and always thought these

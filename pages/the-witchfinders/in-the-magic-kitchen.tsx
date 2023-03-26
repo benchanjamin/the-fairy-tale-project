@@ -1,5 +1,7 @@
 import HomeHero from "@components/HomeHero";
 import Head from "next/head";
+import Image from "next/image";
+import React from "react";
 
 
 export default function InTheMagicKitchen() {
@@ -8,8 +10,16 @@ export default function InTheMagicKitchen() {
             <Head>
                 <title>Chapter 4: In the Magic Kitchen</title>
             </Head>
+            <div className="w-full md:w-1/3 relative h-[60vh] mx-auto mt-10" style={{borderRadius: '40%', overflow: 'hidden'}}>
+                <Image
+                    layout={"fill"}
+                    objectFit={"contain"}
+                    alt=""
+                    src="/static/miles with mop.JPG"
+                />
+            </div>
             <HomeHero displayImages={false}>
-                <h2>CHAPTER 4: In the Magic Kitchen</h2>
+                <h2 className="font-bold">CHAPTER 4: In the Magic Kitchen</h2>
                 <br/>
 
 

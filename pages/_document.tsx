@@ -27,7 +27,7 @@ class MyDocument extends Document {
 
                     <Script src="https://d3js.org/d3.v5.min.js" strategy="beforeInteractive"/>
                     <Script src="https://unpkg.com/topojson-client" strategy="beforeInteractive"/>
-                    <Script src="/static/menu.js" strategy="lazyOnload"/>
+                    <Script src="/static/menu.js" defer strategy="lazyOnload"/>
                 </Head>
                 <body className="bg-[#a2b4be]">
                 <Main/>

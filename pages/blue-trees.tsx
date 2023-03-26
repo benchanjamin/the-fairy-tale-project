@@ -49,39 +49,39 @@ export default function BlueTrees() {
                     will find, however&mdash;and what I believe a contemporary fairy tale should offer&mdash;is a chance
                     to discover yourself.&nbsp;</p>
 
-                <div className="mx-auto mt-10 -mb-7">
-                    <NavLink href="the-shadows-of-the-leaves"
-                             className="text-lightBlack font-medium hover:text-gray-100 duration-75"
+                <div className="mx-auto mt-10">
+                    <NavLink href="blue-trees/the-shadows-of-the-leaves"
+                             className="text-lightBlack font-medium hover:text-gray-100 duration-75 font-bold"
                              exact>
                         The Shadows of the Leaves
                     </NavLink>
                     <br/>
-                    <NavLink href="the-princess's-handmaiden" className="text-lightBlack font-medium hover:text-gray-100 duration-75"
+                    <NavLink href="blue-trees/the-princess's-handmaiden" className="text-lightBlack font-medium hover:text-gray-100 duration-75 font-bold"
                              exact>
                         The Princess&apos;s Handmaiden
                     </NavLink>
                     <br/>
-                    <NavLink href="what-cherry-said" className="text-lightBlack font-medium hover:text-gray-100 duration-75"
+                    <NavLink href="blue-trees/what-cherry-said" className="text-lightBlack font-medium hover:text-gray-100 duration-75 font-bold"
                              exact>
                         What Cherry Said
                     </NavLink>
                     <br/>
-                    <NavLink href="the-enchantress" className="text-lightBlack font-medium hover:text-gray-100 duration-75"
+                    <NavLink href="blue-trees/the-enchantress" className="text-lightBlack font-medium hover:text-gray-100 duration-75 font-bold"
                              exact>
                         The Enchantress
                     </NavLink>
                     <br/>
-                    <NavLink href="the-deer" className="text-lightBlack font-medium hover:text-gray-100 duration-75"
+                    <NavLink href="blue-trees/the-deer" className="text-lightBlack font-medium hover:text-gray-100 duration-75 font-bold"
                              exact>
                         The Deer
                     </NavLink>
                     <br/>
-                    <NavLink href="bluestar" className="text-lightBlack font-medium hover:text-gray-100 duration-75"
+                    <NavLink href="blue-trees/bluestar" className="text-lightBlack font-medium hover:text-gray-100 duration-75 font-bold"
                              exact>
                         Bluestar
                     </NavLink>
                     <br/>
-                    <NavLink href="the-landscaper's-son" className="text-lightBlack font-medium hover:text-gray-100 duration-75"
+                    <NavLink href="blue-trees/the-landscaper's-son" className="text-lightBlack font-medium hover:text-gray-100 duration-75 font-bold"
                              exact>
                         The Landscaper&apos;s Son
                     </NavLink>

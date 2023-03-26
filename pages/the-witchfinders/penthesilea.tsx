@@ -1,5 +1,7 @@
 import HomeHero from "@components/HomeHero";
 import Head from "next/head";
+import Image from "next/image";
+import React from "react";
 
 
 export default function Penthesilea() {
@@ -8,8 +10,16 @@ export default function Penthesilea() {
             <Head>
                 <title>Chapter 3: Penthesilea</title>
             </Head>
+            <div className="w-full md:w-1/3 relative h-[60vh] mx-auto mt-10" style={{borderRadius: '40%', overflow: 'hidden'}}>
+                <Image
+                    layout={"fill"}
+                    objectFit={"contain"}
+                    alt=""
+                    src="/static/obelie and kester.JPG"
+                />
+            </div>
             <HomeHero displayImages={false}>
-                <h2>CHAPTER 3: Penthesilea</h2>
+                <h2 className="font-bold">CHAPTER 3: Penthesilea</h2>
                 <br/>
 
                 <p className="text-left"> She awoke to the sight of Kester keeping watch. He sat at her side with his tail

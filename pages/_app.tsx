@@ -6,7 +6,7 @@ function MyApp({Component, pageProps}) {
         <>
             <BetterHeader/>
             <Component {...pageProps} />
-            <div className="mx-auto pt-4 pb-4" id="footer">
+            <div className="mx-auto mt-5 pb-4" id="footer">
                 <div className="text-sm text-lightBlack text-center md:text-md font-['Almendra']">
                     This project was sponsored by a Flash Grant from the Princeton University Humanities Council
                 </div>

@@ -34,18 +34,21 @@ export default function BetterHeader() {
                                  className="text-lightBlack  font-medium hover:text-gray-100 duration-75 ">Home</NavLink>
                         <NavLink href="/blue-trees" exact
                                  className="text-lightBlack  font-medium hover:text-gray-100 duration-75">Blue
-                            Trees</NavLink>
+                            Trees
+                        </NavLink>
                         <NavLink href="/the-witchfinders" exact
                                  className="text-lightBlack  font-medium hover:text-gray-100 duration-75">The
-                            Witchfinders</NavLink>
+                            Witchfinders
+                        </NavLink>
 
-                        <NavLink href="/dragon-days" exact
-                                 className="text-lightBlack  font-medium hover:text-gray-100 duration-75">Dragon
-                            Days</NavLink>
-
-                        <NavLink href="/the-fire-drill" exact
-                                 className="text-lightBlack  font-medium hover:text-gray-100 duration-75">The
-                            Fire Drill</NavLink>
+                        <NavLink href="/ruby-tales" exact
+                                 className="text-lightBlack  font-medium hover:text-gray-100 duration-75">
+                            Ruby Tales
+                        </NavLink>
+                        <NavLink href="/arcadia" exact
+                                 className="text-lightBlack  font-medium hover:text-gray-100 duration-75">
+                            Arcadia
+                        </NavLink>
 
                     </div>
 
@@ -54,22 +57,22 @@ export default function BetterHeader() {
                         id="menu"
                         className="fixed inset-0 z-20 hidden flex-col items-center self-end w-full h-full m-h-screen
                         px-6 py-1 pt-24 pb-4 tracking-widest text-white uppercase divide-y divide-gray-500 opacity-90 bg-lightBlack
-                         font-['Lato']"
+                         font-['Almendra']"
                     >
-                        <div className="w-full py-3 text-center">
+                        <div className="w-full py-3 text-center nav-mobile-menu">
                             <Link href="/" className="block hover:text-softRed">Home</Link>
                         </div>
-                        <div className="w-full py-3 text-center">
-                            <Link href="/timeline" className="block hover:text-softRed">Blue Trees</Link>
+                        <div className="w-full py-3 text-center nav-mobile-menu">
+                            <Link href="/blue-trees" className="block hover:text-softRed">Blue Trees</Link>
                         </div>
-                        <div className="w-full py-3 text-center">
-                            <Link href="/map" className="block hover:text-softRed">The Witchfinders</Link>
+                        <div className="w-full py-3 text-center nav-mobile-menu">
+                            <Link href="/the-witchfinders" className="block hover:text-softRed">The Witchfinders</Link>
                         </div>
-                        <div className="w-full py-3 text-center">
-                            <Link href="/about" className="block hover:text-softRed">Dragon Days</Link>
+                        <div className="w-full py-3 text-center nav-mobile-menu">
+                            <Link href="/ruby-tales" className="block hover:text-softRed">Ruby Tales</Link>
                         </div>
-                        <div className="w-full py-3 text-center">
-                            <Link href="/about" className="block hover:text-softRed">The Fire Drill</Link>
+                        <div className="w-full py-3 text-center nav-mobile-menu">
+                            <Link href="/arcadia" className="block hover:text-softRed">Arcadia</Link>
                         </div>
                     </div>
                 </div>
