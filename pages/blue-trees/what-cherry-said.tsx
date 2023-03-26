@@ -11,7 +11,6 @@ export default function WhatCherrySaid() {
             </Head>
             <HomeHero displayImages={false}>
                 <h3 className="font-bold text-2xl">What Cherry Said</h3>
-                <h5 className="italic">By Allison Peart</h5>
                 <br/>
                 <p className="text-left">In a land very similar to ours, there was a fairy prince named Pod. Pod
                     belonged to a community of fairies whose work was to harvest cherries off a local cherry tree and

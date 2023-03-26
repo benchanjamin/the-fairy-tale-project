@@ -11,7 +11,6 @@ export default function TheLandscaperSSon() {
             </Head>
             <HomeHero displayImages={false}>
                 <h3 className="font-bold text-2xl">The Landscaper&apos;s Son</h3>
-                <h5 className="italic">By Allison Peart</h5>
                 <br/>
 
                 <p className="text-left">Once upon a time, a young boy stood at the foot of a live oak, neck craned towards the sky, dark

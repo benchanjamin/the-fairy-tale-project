@@ -12,7 +12,6 @@ export default function Bluestar() {
             </Head>
             <HomeHero displayImages={false}>
                 <h3 className="font-bold text-2xl">Bluestar</h3>
-                <h5 className="italic">By Allison Peart</h5>
                 <br/>
 
                 <p className="text-left">Once upon a time, a falling star lost its way. The star was aiming for the sea, with its glittering

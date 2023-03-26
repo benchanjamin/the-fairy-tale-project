@@ -11,7 +11,6 @@ export default function ThePrincessSHandmaiden() {
             </Head>
             <HomeHero displayImages={false} >
                 <h3 className="font-bold text-2xl">The Princess’s Handmaiden</h3>
-                <h5 className="italic">By Allison Peart</h5>
                 <br/>
                 <p className="text-left">Once there was a princess who was very sad. Though everyone in the kingdom tried all they could to make her happy, only one thing eased her sadness. Each day, the princess would walk out to the wide range of windswept hills behind the castle, and wander the hills for hours, crying out her sadness to the wind, until the sun sank below the earth and the princess could no longer bear the cold.&nbsp;</p>
                 <p className="text-left"><br/></p>

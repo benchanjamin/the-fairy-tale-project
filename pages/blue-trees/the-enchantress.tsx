@@ -12,7 +12,6 @@ export default function TheEnchantress() {
             </Head>
             <HomeHero displayImages={false}>
                 <h3 className="font-bold text-2xl">The Enchantress</h3>
-                <h5 className="italic">By Allison Peart</h5>
                 <br/>
 
                 <p className="text-left">There once was a middle school student who was extremely stressed about her semester exams. She

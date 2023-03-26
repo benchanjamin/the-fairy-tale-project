@@ -12,7 +12,6 @@ export default function TheDeer() {
             </Head>
             <HomeHero displayImages={false}>
                 <h3 className="font-bold text-2xl">The Deer</h3>
-                <h5 className="italic">By Allison Peart</h5>
                 <br/>
 
                 <p className="text-left">Not so long ago, a woman was driving down a highway that cut through the stony insides of hills.
