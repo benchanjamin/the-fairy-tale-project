@@ -16,7 +16,7 @@ export default function InTheMagicKitchen() {
                     layout={"fill"}
                     objectFit={"contain"}
                     alt=""
-                    src="/static/miles with mop.JPG"
+                    src="/miles with mop.JPG"
                 />
             </div>
             <HomeHero displayImages={false}>

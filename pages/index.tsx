@@ -22,7 +22,7 @@ export default function Index() {
                     The Contemporary Fairy Tale Project aims to explore the contemporary fairy tale in a
                     post-pandemic, 21st century moment. Through extensive research on fairy tales and folk
                     tales in different historical and cultural contexts, undergraduate students Lara Katz,
-                    Charlotte Leane, Allison Peart, and Sierra Stern engaged critically with the fairy tale
+                    Theo L., Allison Peart, and Sierra Stern engaged critically with the fairy tale
                     genre under the guidance of Kate Clairmont, Ph.D. Candidate in the Department of
                     English. After researching, each student developed a creative writing project as a
                     direct response both to the works they read and to collaborative group discussions.

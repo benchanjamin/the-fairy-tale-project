@@ -16,7 +16,7 @@ export default function Penthesilea() {
                     layout={"fill"}
                     objectFit={"contain"}
                     alt=""
-                    src="/static/obelie and kester.JPG"
+                    src="/obelie and kester.JPG"
                 />
             </div>
             <HomeHero displayImages={false}>

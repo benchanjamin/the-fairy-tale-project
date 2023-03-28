@@ -16,7 +16,7 @@ export default function Witchfinding() {
                     layout={"fill"}
                     objectFit={"contain"}
                     alt=""
-                    src="/static/another version.PNG"
+                    src="/another version.PNG"
                 />
             </div>
             <HomeHero displayImages={false}>
