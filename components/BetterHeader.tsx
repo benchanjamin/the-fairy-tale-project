@@ -23,7 +23,7 @@ export default function BetterHeader() {
                     </div>
 
                     {/* Menu Items */}
-                    {/*Home*/}
+                    {/*Index*/}
                     {/*Blue Trees*/}
                     {/*The Witchfinders*/}
                     {/*Dragon Days*/}
