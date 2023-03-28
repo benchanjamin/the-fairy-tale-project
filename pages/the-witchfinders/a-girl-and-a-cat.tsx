@@ -15,7 +15,7 @@ export default function AGirlAndACat() {
                     layout={"fill"}
                     objectFit={"contain"}
                        alt=""
-                       src="/cover version1.PNG"
+                       src="/cover-version1.png"
                 />
             </div>
             <HomeHero displayImages={false}>
