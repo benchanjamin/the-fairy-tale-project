@@ -3,7 +3,7 @@ import {useState} from "react";
 import {Document, Page, pdfjs} from "react-pdf";
 // import pdf worker as a url, see `next.config.js` and `pdf-worker.js`
 // @ts-ignore
-import workerSrc from "../../pdf-worker";
+import workerSrc from "@utils/pdf-worker";
 import classes from "./PDFViewer.module.css"
 
 pdfjs.GlobalWorkerOptions.workerSrc = workerSrc;
