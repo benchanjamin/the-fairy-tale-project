@@ -5,8 +5,8 @@ import {imageKitLoader} from "@utils/imagekitloader";
 
 function ImageHomeHero(props) {
     return (
-        <div className="flex flex-col md:flex-row">
-            <div className="w-full md:w-1/3 relative h-[55vh] group">
+        <div className="flex flex-col md:flex-row -mt-32">
+            <div className="w-full md:w-1/3 relative h-[45vh] group">
                 <Image layout={"fill"} objectFit={"cover"} objectPosition={"50% 35%"}
                        alt="Richard Doyle Illustration"
                        loader={imageKitLoader}
