@@ -11,13 +11,22 @@ export default function Witchfinding() {
             <Head>
                 <title>Chapter 5: Witchfinding</title>
             </Head>
-            <div className="w-full md:w-1/3 relative h-[60vh] mx-auto mt-10" style={{borderRadius: '40%', overflow: 'hidden'}}>
+            <div className="w-full md:w-1/3 relative h-[60vh] mx-auto mt-10 group" style={{borderRadius: '40%', overflow: 'hidden'}}>
                 <Image
                     layout={"fill"}
                     objectFit={"contain"}
                     alt=""
                     src="/another-version.png"
                 />
+                <div className="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-gray-700
+                     opacity-0 group-hover:opacity-100 bg-opacity-90">
+                    <div className="flex justify-center w-full">
+                        <div className="font-normal">
+                            <p className="text-sm font-['cormorant-garamond']">Original image created by Theo L.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <HomeHero displayImages={false}>
                 <h2 className="font-bold">CHAPTER 5: Witchfinding</h2>

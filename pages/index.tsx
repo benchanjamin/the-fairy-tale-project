@@ -9,7 +9,8 @@ export default function Index() {
                 <title>Fairy Tale Project Home</title>
             </Head>
             <HomeHero displayImages={true}>
-
+                <h2 className="font-bold text-[24px] mt-2">About The Contemporary Fairy Tale Project</h2>
+                <br/>
                 <p className="text-left">
                     Fairy tales and oral folk tales have been a mainstay of the children’s literature genre
                     for many centuries. Specifically, across Western European traditions, the fairy tale

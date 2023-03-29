@@ -3,6 +3,7 @@ import HomeHero from "@components/HomeHero";
 import Image from "next/image"
 import React from "react";
 import TheWitchFindersTOC from "@components/TheWitchFindersTOC";
+import Link from "next/link";
 
 export default function AGirlAndACat() {
     return (
@@ -10,13 +11,22 @@ export default function AGirlAndACat() {
             <Head>
                 <title>Chapter 1: A Girl and a Cat</title>
             </Head>
-            <div className="w-full md:w-1/3 relative h-[60vh] mx-auto mt-10" style={{borderRadius: '40%', overflow: 'hidden'}}>
+            <div className="w-full md:w-1/3 relative h-[60vh] mx-auto mt-10 group" style={{borderRadius: '40%', overflow: 'hidden'}}>
                 <Image
                     layout={"fill"}
                     objectFit={"contain"}
                        alt=""
                        src="/cover-version1.png"
                 />
+                <div className="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-gray-700
+                     opacity-0 group-hover:opacity-100 bg-opacity-90">
+                    <div className="flex justify-center w-full">
+                        <div className="font-normal">
+                            <p className="text-sm font-['cormorant-garamond']">Original image created by Theo L.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <HomeHero displayImages={false}>
                 <h2 className="font-bold">CHAPTER 1: A Girl and a Cat</h2>
