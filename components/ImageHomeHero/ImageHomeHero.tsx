@@ -10,7 +10,7 @@ function ImageHomeHero(props) {
                 <Image layout={"fill"} objectFit={"cover"} objectPosition={"50% 35%"}
                        alt="Richard Doyle Illustration"
                        loader={imageKitLoader}
-                       src="mirror_with_shadow.PNG"
+                       src="sword_w_shadow.PNG"
                 />
                 {/*<div className="absolute top-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-gray-700*/}
                 {/*     opacity-0 group-hover:opacity-100 bg-opacity-90">*/}
@@ -44,7 +44,7 @@ function ImageHomeHero(props) {
                 <Image layout={"fill"} objectFit={"cover"} objectPosition={"50% 0%"}
                        alt="Walter Crane Illustration"
                        loader={imageKitLoader}
-                       src="sword_w_shadow.PNG"/>
+                       src="mirror_with_shadow.PNG"/>
                 {/*<div className="absolute top-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-gray-700*/}
                 {/*     opacity-0 group-hover:opacity-100 bg-opacity-90">*/}
                 {/*    <div className="flex justify-center w-full">*/}
