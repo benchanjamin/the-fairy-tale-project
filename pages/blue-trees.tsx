@@ -19,11 +19,11 @@ export default function BlueTrees() {
                     had developed in contexts unfamiliar to me. Two of my main goals in doing so were to cultivate a
                     better idea of general themes in fairy tales and, hopefully, help my writing wriggle past the
                     boundaries of my own preconceptions. With these goals in mind, I read tales from the Pawnee Nation
-                    of North America, Germany, Japan, Nigeria, Brazil, Serbia, the Māori&nbsp;of New Zealand, Egypt,
+                    of North America, Germany, Japan, Nigeria, Brazil, Serbia, the Maori&nbsp;of New Zealand, Egypt,
                     Celtic nations, the Arabian Peninsula, and Korea. Some of my favorite stories I researched
                     included &ldquo;The Bamboo Cutter and the Moon Child&rdquo; from 10th century Japan; &ldquo;The
                     Adventures of a Fisherman&rsquo;s Son,&rdquo; a Brazilian folktale; &ldquo;How the Moon was
-                    Made,&rdquo; a Māori folktale; and &ldquo;A Bridegroom for Miss Mole,&rdquo; a Korean
+                    Made,&rdquo; a Maori folktale; and &ldquo;A Bridegroom for Miss Mole,&rdquo; a Korean
                     folktale.&nbsp;</p>
                 <p><br/></p>
                 <p className="text-left">Furthermore, I must always give enduring praise and everlasting credit to Peter
