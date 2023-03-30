@@ -158,8 +158,6 @@ function ChapterTwo(props) {
                 <p className="text-left">They glanced around as though we were being watched. &ldquo;We should go
                     inside.&rdquo;</p>
                 <br/>
-                <p className="text-left"></p>
-                <br/>
                 <p className="text-left">Inside Ruby, seated on the bench at our glued-in-place table, I asked the
                     dragon to tell me more.</p>
                 <br/>
