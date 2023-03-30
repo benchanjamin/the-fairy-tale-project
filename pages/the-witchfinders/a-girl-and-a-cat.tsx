@@ -64,7 +64,7 @@ export default function AGirlAndACat() {
                     soon, the hour would be up and the bell would ring that summoned her back inside. She would say her
                     goodbye &ndash; it seemed appropriate to do, even if it couldn&rsquo;t respond &ndash; and it would
                     stare back at her with intelligent green eyes before disappearing into the grass.</p>
-                <p className="text-left"><br/></p>
+                <br/>
                 <p className="text-left"> One night, Obelie woke with a cough and went to the office to see a nurse. She
                     was
                     given a spoonful of foul-tasting oil and told to sit and wait while the nurse left. She swallowed it
