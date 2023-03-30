@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function BetterHeader() {
     return (
         <>
-            <div className="h-[5vh] md:h-[10vh] p-6">
+            <div className="h-[5vh] p-6">
                 <div className="flex justify-between">
                     <h2 className="text-[16px] text-lightBlack text-left font-bold font-light pl-6 pr-6 font-sans font-['cormorant-garamond']">The
                         Contemporary Fairy Tale Project</h2>
@@ -17,31 +17,31 @@ export default function BetterHeader() {
                         <span className="hamburger-bottom"></span>
                     </button>
                 </div>
-                <nav className="hidden items-center justify-between space-x-30 md:flex md:text-[18px] lg:text-[26px]
-                    md:mt-[15px] pl-6 pr-6 tracking-wider font-semibold font-['Almendra']">
-                    <NavLink href="/" exact
-                             className="text-lightBlack hover:text-gray-100 duration-75 ">Home</NavLink>
-                    <NavLink href="/blue-trees" exact
-                             className="text-lightBlack hover:text-gray-100 duration-75">Blue
-                        Trees
-                    </NavLink>
-                    <NavLink href="/the-witchfinders" exact
-                             className="text-lightBlack hover:text-gray-100 duration-75">The
-                        Witchfinders
-                    </NavLink>
-
-                    <NavLink href="/ruby-tales" exact
-                             className="text-lightBlack hover:text-gray-100 duration-75">
-                        Ruby Tales
-                    </NavLink>
-                    <NavLink href="/arcadia" exact
-                             className="text-lightBlack hover:text-gray-100 duration-75">
-                        Arcadia
-                    </NavLink>
-                </nav>
             </div>
+            <nav className="md:h-[6vh] hidden items-center justify-between space-x-30 md:flex md:text-[18px] lg:text-[26px]
+                    md:mt-[15px] pl-12 pr-12 tracking-wider font-semibold font-['Almendra']">
+                <NavLink href="/" exact
+                         className="text-lightBlack hover:text-gray-100 duration-75 ">Home</NavLink>
+                <NavLink href="/blue-trees" exact
+                         className="text-lightBlack hover:text-gray-100 duration-75">Blue
+                    Trees
+                </NavLink>
+                <NavLink href="/the-witchfinders" exact
+                         className="text-lightBlack hover:text-gray-100 duration-75">The
+                    Witchfinders
+                </NavLink>
+
+                <NavLink href="/ruby-tales" exact
+                         className="text-lightBlack hover:text-gray-100 duration-75">
+                    Ruby Tales
+                </NavLink>
+                <NavLink href="/arcadia" exact
+                         className="text-lightBlack hover:text-gray-100 duration-75">
+                    Arcadia
+                </NavLink>
+            </nav>
             <div>
-                <div className="relative mx-auto md:p-3">
+                <div className="relative mx-auto ">
                     {/*<div className="flex-col items-start">*/}
                     {/* Logo + Button */}
                     <div
