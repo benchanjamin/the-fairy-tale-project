@@ -24,7 +24,9 @@ function NavLink({href, exact, children, ...props}) {
     return (
         <Link href={href} legacyBehavior passHref>
             <a {...props}>
-                {children}
+                <div>
+                    {children}
+                </div>
             </a>
         </Link>
     );
