@@ -21,11 +21,11 @@ function NavLink({href, exact, children, ...props}) {
         props.className += ' text-gray-100';
     }
 
-    // return (
-    //     <Link href={href} legacyBehavior passHref>
-    //         <a {...props}>
-    //             {children}
-    //         </a>
-    //     </Link>
-    // );
+    return (
+        <Link href={href} legacyBehavior passHref>
+            <a {...props}>
+                {children}
+            </a>
+        </Link>
+    );
 }
