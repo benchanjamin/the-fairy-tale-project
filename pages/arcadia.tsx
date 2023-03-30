@@ -20,7 +20,8 @@ export default function Arcadia() {
                     my interests lie primarily in Black genre fiction, or stories that center or interpret Blackness
                     through supernatural, fantastical, or surreal means. &nbsp;</p>
                 <br/>
-                <p className="text-left">My mini screenplay, entitled &ldquo;Arcadia,&rdquo; is a modern retelling of the
+                <p className="text-left">My mini screenplay, entitled &ldquo;Arcadia,&rdquo; is a modern retelling of
+                    the
                     Greek myth of Atalanta that substitutes the godly magic of the original story for modern witchcraft.
                     In &ldquo;Arcadia,&rdquo; set in the suburban Californian town of the same name, star debater Melvin
                     falls for Addy, a local track and field star, who agrees to go out with him if he can beat her in a
@@ -34,16 +35,19 @@ export default function Arcadia() {
                     Meleager will die. In &ldquo;Arcadia,&rdquo; I combine these myths, and Melvin embodies both
                     Melanion and Meleager.</p>
                 <br/>
-                <p className="text-left">In creating this project, I was inspired by movies like&nbsp;A Cinderella
-                    Story&nbsp;starring Hillary Duff,&nbsp;She&rsquo;s the Man&nbsp;with Amanda Bynes, and other movies
+                <p className="text-left">In creating this project, I was inspired by movies like&nbsp;<span
+                    className="italic">A Cinderella
+                    Story</span>&nbsp;starring Hillary Duff,&nbsp;<span className="italic">She&rsquo;s the Man</span>&nbsp;with Amanda Bynes, and other
+                    movies
                     from the early to mid-2000s that attempt to reconcile centuries-old fairytales and classics with
                     contemporary circumstances and characters. When I was little, I was captivated by Greek mythology
                     and the idea of magic as central to once-widespread religious frameworks. Perhaps because these
                     stories were more central to my childhood than classical fairy tales, I found myself wishing not to
                     live among princes or mermaids, but instead to relive the adventures of the Greek heroes.&nbsp;</p>
                 <br/>
-                <p className="text-left">Despite being a myth, the story of Atalanta is alive with fairy tale potential. In&nbsp;A Cinderella
-                    Story,&nbsp;the drought in Los Angeles&rsquo;s San Fernando Valley is used as an allegory for the
+                <p className="text-left">Despite being a myth, the story of Atalanta is alive with fairy tale potential.
+                    In&nbsp;<span className="italic">A Cinderella
+                    Story</span>,&nbsp;the drought in Los Angeles&rsquo;s San Fernando Valley is used as an allegory for the
                     central romance &mdash; when the two finally kiss, a downpour of rain comes down, marking the end of
                     uncertainty and despair. I was also inspired by classical fairy tales like &ldquo;The Necklace of
                     Princess Fiorimonde,&rdquo; &ldquo;Cinderella,&rdquo; and &ldquo;Hansel and Gretel,&rdquo; which use
@@ -69,7 +73,7 @@ export default function Arcadia() {
                     institutions that stand in the way of fairy tale endings.&nbsp;</p>
             </HomeHero>
             <div className="-mt-8">
-            <PDFViewer/>
+                <PDFViewer/>
             </div>
         </>
     )

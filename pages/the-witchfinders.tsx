@@ -11,9 +11,12 @@ export default function TheWitchfinders() {
             <HomeHero displayImages={false}>
                 <p className="text-left">I&rsquo;m Theo L., an English major with certificates in Computer Science and
                     Linguistics. When I was
-                    a child, some of my favorite books were Madeleine L&rsquo;Engle&rsquo;s&nbsp;A Wrinkle in Time,
-                    Norton Juster&rsquo;s&nbsp;The Phantom Tollbooth, Phillip Pullman&rsquo;s&nbsp;The Golden Compass,
-                    and Terry Pratchett&rsquo;s&nbsp;Discworld&nbsp;series. I&apos;ve always loved the more strange and
+                    a child, some of my favorite books were Madeleine L&rsquo;Engle&rsquo;s&nbsp;<span
+                        className="italic">A Wrinkle in Time</span>,
+                    Norton Juster&rsquo;s&nbsp;<span className="italic">The Phantom Tollbooth</span>, Phillip
+                    Pullman&rsquo;s&nbsp;<span className="italic">The Golden Compass</span>,
+                    and Terry Pratchett&rsquo;s&nbsp;<span className="italic">Discworld</span>&nbsp;series. I&apos;ve
+                    always loved the more strange and
                     fantastical elements of children&rsquo;s stories, and I was captivated by the worlds these authors
                     created: they drew imaginative connections, often mixing the ordinary right in with fantastical
                     elements, yielding results that are sometimes funny, sometimes surreal, and sometimes profoundly

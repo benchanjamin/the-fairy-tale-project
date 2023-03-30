@@ -11,7 +11,7 @@ export default function Penthesilea() {
             <Head>
                 <title>Chapter 3: Penthesilea</title>
             </Head>
-            <div className="w-full md:w-1/3 relative h-[60vh] mx-auto mt-10 group" style={{borderRadius: '40%', overflow: 'hidden'}}>
+            <div className="w-full w-1/3 relative h-[50vh] mx-auto mt-10 group">
                 <Image
                     layout={"fill"}
                     objectFit={"contain"}

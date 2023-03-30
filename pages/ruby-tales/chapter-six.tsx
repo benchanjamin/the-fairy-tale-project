@@ -3,7 +3,7 @@ import Head from "next/head";
 import HomeHero from "@components/HomeHero";
 import RubyTalesTOC from "@components/RubyTalesTOC";
 
-function Chapter6(props) {
+function ChapterSix(props) {
     return (
         <>
             <Head>
@@ -106,8 +106,9 @@ function Chapter6(props) {
                 <br/>
                 <p className="text-left"> &ldquo;I thought you can&rsquo;t drive.&rdquo;</p>
                 <br/>
-                <p className="text-left"> &ldquo;I&rsquo;m not stupid. I could figure it out.&rdquo;
-                    <br/> &ldquo;You&rsquo;re not stupid,
+                <p className="text-left"> &ldquo;I&rsquo;m not stupid. I could figure it out.&rdquo; </p>
+                <br/>
+                <p className="text-left">&ldquo;You&rsquo;re not stupid,
                     you&rsquo;re just arrogant. Driving isnoteasy.&rdquo;</p>
                 <br/>
                 <p className="text-left"> &ldquo;I have other skills you don&rsquo;t know about.&rdquo;</p>
@@ -375,4 +376,4 @@ function Chapter6(props) {
     );
 }
 
-export default Chapter6;
+export default ChapterSix;

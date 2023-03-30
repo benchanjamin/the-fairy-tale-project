@@ -6,8 +6,8 @@ import {imageKitLoader} from "@utils/imagekitloader";
 function ImageHomeHero(props) {
     return (
         <div className="flex flex-col md:flex-row -mt-32">
-            <div className="hidden w-full md:block md:w-1/3 relative h-[55vh] group">
-                <Image layout={"fill"} objectFit={"cover"} objectPosition={"50% 0%"}
+            <div className="hidden w-full md:block lg:w-1/3 relative h-[55vh] group">
+                <Image layout={"fill"} objectFit="contain" objectPosition={"50% 50%"}
                        alt="Walter Crane Illustration"
                        loader={imageKitLoader}
                        src="mirror_with_shadow.PNG"/>
@@ -23,8 +23,8 @@ function ImageHomeHero(props) {
                 {/*    </div>*/}
                 {/*</div>*/}
             </div>
-            <div className="hidden md:block w-full md:w-1/3 relative h-[55vh] group">
-                <Image layout={"fill"} objectFit={"cover"} objectPosition={"50% 20%"}
+            <div className="hidden md:block w-full lg:w-1/3 relative h-[55vh] group">
+                <Image layout={"fill"} objectFit="contain" objectPosition={"50% 50%"}
                        alt="Charles Ricketts & Charles Shannon Illustration"
                        loader={imageKitLoader}
                        src="apple_diagonal.PNG"/>
@@ -39,8 +39,8 @@ function ImageHomeHero(props) {
                 {/*    </div>*/}
                 {/*</div>*/}
             </div>
-            <div className="w-full md:w-1/3 relative h-[55vh] group">
-                <Image layout={"fill"} objectFit={"cover"} objectPosition={"50% 35%"}
+            <div className="w-full lg:w-1/3 relative h-[55vh] group">
+                <Image layout={"fill"} objectFit="contain" objectPosition={"50% 50%"}
                        alt="Richard Doyle Illustration"
                        loader={imageKitLoader}
                        src="sword_w_shadow.PNG"

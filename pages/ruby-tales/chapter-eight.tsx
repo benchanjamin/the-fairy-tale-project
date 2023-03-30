@@ -3,7 +3,7 @@ import Head from "next/head";
 import HomeHero from "@components/HomeHero";
 import RubyTalesTOC from "@components/RubyTalesTOC";
 
-function Chapter8(props) {
+function ChapterEight(props) {
     return (
         <>
             <Head>
@@ -222,4 +222,4 @@ function Chapter8(props) {
     );
 }
 
-export default Chapter8;
+export default ChapterEight;
