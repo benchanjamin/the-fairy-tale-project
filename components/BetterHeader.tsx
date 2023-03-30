@@ -22,12 +22,6 @@ export default function BetterHeader() {
                         </button>
                     </div>
 
-                    {/* Menu Items */}
-                    {/*Index*/}
-                    {/*Blue Trees*/}
-                    {/*The Witchfinders*/}
-                    {/*Dragon Days*/}
-                    {/*The Fire Drill*/}
                     <div className="hidden items-center justify-between space-x-30 md:flex md:text-[18px] lg:text-[26px]
                     md:mt-[15px] pl-6 pr-6 tracking-wider font-semibold font-['Almendra']">
                         <NavLink href="/" exact
@@ -76,8 +70,6 @@ export default function BetterHeader() {
                         </div>
                     </div>
                 </div>
-
-
             </nav>
         </>
     );
