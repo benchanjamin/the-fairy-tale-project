@@ -6,7 +6,8 @@ export default function BetterHeader() {
         <>
             <div className="h-[5vh] p-6">
                 <div className="flex justify-between">
-                    <h2 className="text-[16px] text-lightBlack text-left font-bold font-light pl-6 pr-6 font-sans font-['cormorant-garamond']">The
+                    <h2 className="text-[16px] text-lightBlack text-left font-bold font-light pl-6 pr-6
+                     font-['cormorant-garamond']">The
                         Contemporary Fairy Tale Project</h2>
                     <button
                         id="menu-btn"
@@ -18,7 +19,7 @@ export default function BetterHeader() {
                     </button>
                 </div>
             </div>
-            <nav className="md:h-[6vh] hidden items-center justify-between space-x-30 md:flex md:text-[18px] lg:text-[26px]
+            <nav className=" hidden items-center justify-between space-x-30 md:flex md:text-[18px] lg:text-[26px]
                     md:mt-[15px] pl-12 pr-12 tracking-wider font-semibold font-['Almendra']">
                 <NavLink href="/" exact
                          className="text-lightBlack hover:text-gray-100 duration-75 ">Home</NavLink>
@@ -41,9 +42,9 @@ export default function BetterHeader() {
                 </NavLink>
             </nav>
             <div>
-                <div className="relative mx-auto ">
-                    {/*<div className="flex-col items-start">*/}
-                    {/* Logo + Button */}
+                <div className="relative mx-auto">
+                    <div className="flex-col items-start">
+
                     <div
                         id="menu"
                         className="fixed inset-0 z-20 hidden flex-col items-center self-end w-full h-full m-h-screen
@@ -67,7 +68,7 @@ export default function BetterHeader() {
                         </div>
                     </div>
                 </div>
-                {/*</div>*/}
+                </div>
             </div>
         </>
     );
