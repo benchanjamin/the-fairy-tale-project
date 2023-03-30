@@ -4,9 +4,8 @@ import Link from "next/link";
 export default function BetterHeader() {
     return (
         <>
-            <nav className="container relative mx-auto pt-6 h-[5vh] md:h-[10vh] p-6">
-
-                <div className="flex-col items-start">
+            <div className="container relative mx-auto pt-6 h-[5vh] md:h-[10vh] p-6">
+                {/*<div className="flex-col items-start">*/}
                     {/* Logo + Button */}
                     <div className="flex justify-between">
                         <h2 className="text-[16px] text-lightBlack text-left font-bold font-light pl-6 pr-6 font-sans font-['cormorant-garamond']">The
@@ -21,8 +20,7 @@ export default function BetterHeader() {
                             <span className="hamburger-bottom"></span>
                         </button>
                     </div>
-
-                    <div className="hidden items-center justify-between space-x-30 md:flex md:text-[18px] lg:text-[26px]
+                    <nav className="hidden items-center justify-between space-x-30 md:flex md:text-[18px] lg:text-[26px]
                     md:mt-[15px] pl-6 pr-6 tracking-wider font-semibold font-['Almendra']">
                         <NavLink href="/" exact
                                  className="text-lightBlack hover:text-gray-100 duration-75 ">Home</NavLink>
@@ -44,7 +42,7 @@ export default function BetterHeader() {
                             Arcadia
                         </NavLink>
 
-                    </div>
+                    </nav>
 
 
                     <div
@@ -70,7 +68,7 @@ export default function BetterHeader() {
                         </div>
                     </div>
                 </div>
-            </nav>
+            {/*</div>*/}
         </>
     );
 }
