@@ -26,6 +26,7 @@ function ImageHomeHero(props) {
                        alt="Richard Doyle Illustration"
                        loader={imageKitLoader}
                        src="sword_w_shadow.PNG"
+                       />
             </div>
         </div>
     );
