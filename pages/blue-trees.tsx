@@ -39,14 +39,14 @@ export default function BlueTrees() {
                     romance, and heteronormativity, and wanted to write stories about emotional intelligence and the
                     power of friendship. Mainly, I hoped to write fairy tales promoting positive values for young boys,
                     since I found many of the messages about masculinity in my research unsuitable for the present day.
-                    However, now that&nbsp;<span className="text-left">Blue Trees</span>&nbsp;is completed, I believe that the most direct transference
+                    However, now that <em>Blue Trees</em> is completed, I believe that the most direct transference
                     between my research and the final product has related more to broad discoveries about what the fairy
                     tale can do: how unexplained fantastical elements, symbols and ambiguity, modes of teaching, and
                     common constructs give it power.</p>
                 <br/>
-                <p className="text-left">Blue Trees has been a way for me to explore psychological complexity in the
+                <p className="text-left"> <em>Blue Trees</em> has been a way for me to explore psychological complexity in the
                     fairy tale, since
-                    traditionally that type of inner development is absent in the fairy tale. In Blue Trees, you may
+                    traditionally that type of inner development is absent in the fairy tale. In <em>Blue Trees</em>, you may
                     find themes of self-love, self-discovery, isolation, devotion, kindness, and family. What I hope you
                     will find, however&mdash;and what I believe a contemporary fairy tale should offer&mdash;is a chance
                     to discover yourself.&nbsp;</p>

@@ -25,7 +25,8 @@ export default function Index() {
                     tales in different historical and cultural contexts, undergraduate students Lara Katz,
                     Theo L., Allison Peart, and Sierra Stern engaged critically with the fairy tale
                     genre under the guidance of Kate Clairmont, Ph.D. Candidate in the Department of
-                    English. After researching, each student developed a creative writing project as a
+                    English at Princeton University.
+                    After researching, each student developed a creative writing project as a
                     direct response both to the works they read and to collaborative group discussions.
                 </p>
                 <br/>
@@ -38,8 +39,7 @@ export default function Index() {
                 </p>
                 <br/>
                 <p className="text-left">
-                    This project was generously funded by a 2022 Humanities Council Flash Grant and
-                    supported by the David A. Gardner ’69 Magic Grant.
+                    This project was generously funded by a 2022 Humanities Council Flash Grant.
                 </p>
                 <br/>
                 <p className="text-left">
