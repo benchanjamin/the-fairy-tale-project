@@ -49,7 +49,7 @@ export default function InTheMagicKitchen() {
                 <p className="text-left"> When he came down again, he was staring at Kester with wide eyes.</p>
                 <br/>
 
-                <p className="text-left"> &ldquo;Your cat&mdash; your cattalks?&rdquo;</p>
+                <p className="text-left"> &ldquo;Your cat&mdash;your cat <em>talks</em>?&rdquo;</p>
                 <br/>
 
                 <p className="text-left"> &ldquo;You work at a magic bakery,&rdquo; Obelie replied reasonably.</p>

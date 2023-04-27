@@ -70,7 +70,7 @@ export default function AGirlAndACat() {
                     given a spoonful of foul-tasting oil and told to sit and wait while the nurse left. She swallowed it
                     dutifully and took a seat in a stiff-backed chair, swinging her legs and watching the clock. It had
                     stopped working at 2:35 some afternoon long ago. After a long time in the silent, empty room, she
-                    began to look around restlessly.There was a large roll-top desk against the wall &ndash; Mr.
+                    began to look around restlessly. There was a large roll-top desk against the wall &ndash; Mr.
                     Maypole&rsquo;s, lid half-open. She could see inside it dimly hundreds of tiny cubbyholes filled
                     with papers and strange knick-knacks.</p>
                 <br/>

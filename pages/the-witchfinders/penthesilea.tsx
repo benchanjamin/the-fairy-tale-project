@@ -66,7 +66,7 @@ export default function Penthesilea() {
                 <p className="text-left"> The shop was busy. A long line of customers stood in front of her, tall adults who
                     blocked her view of the counter. She shifted impatiently, standing first on one foot, then the
                     other. It seemed she had been waiting a very long time. Her conviction faltered for a
-                    moment &mdash;what was she doing here on her own?they would ask, they would turn her
+                    moment &mdash;what was she doing here on her own? They would ask, they would turn her
                     away &mdash; but Kester bumped his head reassuringly against her leg and she stood up straighter,
                     determined.</p>
                 <br/>
@@ -90,7 +90,7 @@ export default function Penthesilea() {
                 <br/>
                 <p className="text-left"> Arrayed in the case were rows of bite-sized marzipan packages, painstakingly tiny
                     ribbons and bows drawn on in different colors of icing &mdash; yellow and green and pink and orange.
-                    After severalhmmsandahhsshe appeared again, producing a green one and
+                    After several <em>hmms and ahhs</em> she appeared again, producing a green one and
                     wrapping it neatly in a pink cardboard box secured with twine.</p>
                 <br/>
                 <p className="text-left"> &ldquo;That ought to help. And put your feet up &mdash; it doesn&rsquo;t do to be
@@ -145,7 +145,7 @@ export default function Penthesilea() {
                 <br/>
                 <p className="text-left"> The morning crush of customers had slowed to a steady, consistent stream. They
                     would come up to the counter one by one and confide their private problems &mdash; warts, spots, a
-                    failed test, an unrequited love &mdash; and the old woman wouldhmmandahhand
+                    failed test, an unrequited love &mdash; and the old woman would <em>hmm and ahh</em> and
                     select from the case some little cake or marzipan figure, packaging it up and sliding it across the
                     counter to the grateful recipient. Each thanked her profusely, and promised to come again. The bell
                     would tinkle as they left, and the old woman would wipe her hands on the raggedy towel tucked over
@@ -165,7 +165,7 @@ export default function Penthesilea() {
                     world. &ldquo;Do you have somewhere to stay?&rdquo;</p>
                 <br/>
                 <p className="text-left"> Obelie confessed, slightly embarrassed, that she had spent the last night sleeping
-                    under a bush. The old womantsked.</p>
+                    under a bush. The old woman <em>tsked</em>.</p>
                 <br/>
                 <p className="text-left"> &ldquo;A bush is a fine bed for a cat, but no place for a human girl. You may stay
                     here tonight, if you help out around the shop.&rdquo; And she showed her how to fold the tabs in to
