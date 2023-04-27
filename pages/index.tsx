@@ -25,7 +25,7 @@ export default function Index() {
                     tales in different historical and cultural contexts, Princeton University undergraduate students Lara Katz,
                     Theo L., Allison Peart, and Sierra Stern engaged critically with the fairy tale
                     genre under the guidance of Kate Clairmont, Ph.D. Candidate in the Department of
-                    English at Princeton University.
+                    English at Princeton.
                     After researching, each student developed a creative writing project as a
                     direct response both to the works they read and to collaborative group discussions.
                 </p>
@@ -43,9 +43,9 @@ export default function Index() {
                 </p>
                 <br/>
                 <p className="text-left">
-                    Special thanks to Kathleen Crown and Ruby Marie Marsh at the Humanities Council and to
-                    Sarah Thody in the Department of English. All website design was implemented by Ben
-                    Chan, Major in Computer Science.
+                    Special thanks to Kathleen Crown and Ruby Marie Marsh at the Princeton University Humanities Council and to
+                    Sarah Thody in Princeton&apos;s Department of English. All website design was implemented by Ben
+                    Chan, Major in Computer Science at Princeton.
 
                 </p>
 
